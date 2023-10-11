@@ -1,0 +1,34 @@
+@import url('../../admin/bootstrap/css/bootstrap.min.css');
+@import url('../../admin/bootstrap/css/bootstrap-theme.min.css');
+@import url('../scripts/bootstrap/bootstrap.min.css');
+/* @import url('style_compress.css'); */
+
+@import url('../scripts/ionicons/css/ionicons.min.css');
+@import url('../scripts/toast/jquery.toast.min.css');
+@import url('../scripts/owlcarousel/dist/assets/owl.carousel.min.css');
+@import url('../scripts/owlcarousel/dist/assets/owl.theme.default.min.css');
+@import url('../scripts/magnific-popup/dist/magnific-popup.css');
+@import url('../scripts/sweetalert/dist/sweetalert.css');
+
+@import url('main.css');
+@import url('demo.css');
+@import url('fonts.css');
+@import url('fonts.css.map');
+@import url('safari.css');
+@import url('safari.css.map');
+@import url('main_compress.css');
+@import url('main.css.map');
+@import url('variable.css');
+@import url('variable.css.map');
+
+
+@import url('skins/all.css');
+@import url('skins/all.css.map');
+@import url('skins/blue.css');
+@import url('skins/blue.css.map');
+@import url('skins/orange.css');
+@import url('skins/orange.css.map');
+@import url('skins/purple.css');
+@import url('skins/purple.css.map');
+
+
