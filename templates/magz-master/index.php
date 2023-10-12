@@ -16,14 +16,15 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-12">
+            <!-- <?php echo $sys->block_show('logo'); ?> -->
             <div class="brand">
               <a href="index.html">
                 <img src="templates/magz-master/images/logo.png" alt="Magz Logo">
               </a>
-              <?php echo $sys->block_show('logo'); ?>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
+            <?php echo $sys->block_show('header'); ?>
             <form class="search" autocomplete="off">
               <div class="form-group">
                 <div class="input-group">
@@ -46,6 +47,7 @@
             </form>
           </div>
           <div class="col-md-3 col-sm-12 text-right">
+            <?php echo $sys->block_show('top'); ?>
             <ul class="nav-icons">
               <li><a href="register.html"><i class="ion-person-add"></i>
                   <div>Register</div>
@@ -296,6 +298,7 @@
       <div class="row">
         <div class="col-md-8 col-sm-12 col-xs-12">
           <div class="headline">
+            <?php echo $sys->block_show('content_top'); ?>
             <div class="nav" id="headline-nav">
               <a class="left carousel-control" role="button" data-slide="prev">
                 <span class="ion-ios-arrow-left" aria-hidden="true"></span>
@@ -319,7 +322,7 @@
           </div>
           <div class="owl-carousel owl-theme slide" id="featured">
             <div class="item">
-              <?php echo trim($Bbc->content); ?>
+              <?php echo trim($Bbc->content);?>
             </div>
             <!-- <div class="item">
 									<article class="featured">
@@ -754,6 +757,7 @@
         </div>
         <div class="col-xs-6 col-md-4 sidebar" id="sidebar">
           <div class="sidebar-title for-tablet">Sidebar</div>
+          <?php echo $sys->block_show('right'); ?>
           <aside>
             <div class="aside-body">
               <div class="featured-author">
@@ -812,7 +816,7 @@
                               <div class="more">+2</div>
                             </a></li>
                           <li class="hidden"><a href="templates/magz-master/images/news/img13.jpg" style="background-image: url('templates/magz-master/images/news/img13.jpg');"></a></li>
-                          <li class="hidden"><a href="templates/magz-master/images/news/img14.jpg" style="background-image: url('templates/magz-master/images/news/img14.jpg');"></a></li>
+                          <li class="hidden"><a href="templates/magz-master/images/news/img14.jpg" style="background-image: url('templates/images/news/img14.jpg');"></a></li>
                         </ul>
                       </div>
                     </div>
@@ -1457,7 +1461,7 @@
   <script>
     var $target_end = $(".best-of-the-week");
   </script>
-  <!-- <script src="templates/admin/bootstrap/js/bootstrap.min.js"></script> -->
+  <!-- <script src="templates/magz-master/admin/bootstrap/js/bootstrap.min.js"></script> -->
 
 
 </body>
