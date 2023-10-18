@@ -1,20 +1,20 @@
 <?php if (!defined('_VALID_BBC')) exit('No direct script access allowed');
 echo '<h1>' . $output['title'] . '</h1>';
-// echo $output['form'];
+echo $output['form'];
 ?>
 
-<div class="reg">
+<!-- <div class="reg">
 	<?php
+	// echo $output['form'];
 
-	echo $output['form'];
 	?>
 
-</div>
-<style>
+</div> -->
+<!-- <style>
 	.reg [name="params[Phone]"] {
 		border: 5px solid #000;
 	}
-</style>
+</style> -->
 <!-- <form>
 	<div class="form-group">
 		<label>Name</label>

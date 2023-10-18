@@ -84,6 +84,7 @@ function content_category_style($ids, $is_link = true)
 				<?php
 				}
 				?>
+			</div>
 		</article>
 	<?php
 	}

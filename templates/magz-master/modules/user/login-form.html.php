@@ -1,7 +1,7 @@
 <?php
 link_js('includes/lib/pea/includes/formIsRequire.js', false);
 ?>
-
+<h2 class="form-signin-heading"><?php echo lang('Please sign in'); ?></h2>
 <form class="form-signin formIsRequire" method="POST" action="">
 	<div class="form-group">
 		<label><?php echo lang('Username'); ?></label>

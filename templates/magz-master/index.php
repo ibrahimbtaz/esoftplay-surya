@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div class="primary">
+	<header class="primary">
 		<div class="firstbar">
 			<div class="container">
 				<div class="row">
@@ -31,7 +31,7 @@
 				<?php echo $sys->block_show('top') ?>
 			</div>
 		</nav>
-	</div>
+	</header>
 	<section class="home">
 		<div class="container">
 			<div class="row">
