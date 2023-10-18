@@ -54,27 +54,16 @@ function content_category_style($ids, $is_link = true)
 				<?php
 				if ($config['tag']) {
 					$r = content_category_style($data['id'], $config['tag_link']);
-				?>
-					<div class="category text-light"><?php echo  implode('', $r) ?></div>
-				<?php
+					echo '<div class="category text-light">' . implode('', $r) . '</div>';
 				}
 				$link = content_link($data['id'], $data['title']);
 				if ($config['title']) {
-					if ($config['title_link']) {
-				?>
-						<h1><a href="<?php echo $link; ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title'] ?></a></h1>
-					<?php
-					} else {
-					?>
-						<h1><?php echo $data['title'] ?></h1>
-					<?php
-					}
+					echo ($config['title_link']) ? '<h1><a href="' . $link . '" title="' . $data['title'] . '">' . $data['title'] . '</a></h1>' : '<h1>' . $data['title'] . '</h1>';
 				}
 				$tr = (($config['created'] && $config['author']) || ($config['rating'] && $config['modified'])) ? ' text-right' : '';
-
 				if ($config['created'] || $config['author']) {
-					?>
-				<div class="row">
+				?>
+					<div class="row">
 						<?php
 						echo ($config['author']) ? '<div class="col-md-6 time"><span>' . lang('author') . $data['created_by_alias'] . '</span></div>' : '';
 						echo ($config['created']) ? '<div class="col-md-6 time ' . $tr . '"><span>' . lang('created') . content_date($data['created']) . '</span></div>' : '';

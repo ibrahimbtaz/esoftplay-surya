@@ -1,5 +1,5 @@
 	<?php if (!defined('_VALID_BBC')) exit('No direct script access allowed');
-	
+
 	$r = explode(' ', $config['submenu']);
 	$y = @$r[0] == 'top' ? 'top' : '';
 	$x = @$r[1] == 'left' ? 'left' : '';
@@ -15,6 +15,11 @@
 				$cls = !empty($y) ? ' nav-' . $y : '';
 				$cls .= !empty($x) ? ' nav-' . $x : '';
 				$out = '';
+
+				global $user;
+				$loggedInUser = ($user->id > 0) ? '<li class=""><a href="my-profile85.html" style="font-size:11px;"><div>You\'re Login as <span class="" style="color:#F73F52">' . $user->username.'</span></div></a></li>' : '';
+
+
 				foreach ($menus as $menu) {
 					$sub = call_user_func(__FUNCTION__, $menu['child'], $y, $x, ++$level);
 					if (!empty($sub)) {
@@ -25,7 +30,7 @@
 						$out .= '<li' . $act . '><a href="' . $menu['link'] . '" title="' . $menu['title'] . '"><div>' . $menu['title'] . '</div></a></li>';
 					}
 				}
-				$output = '<div class="col-md-4 col-sm-12 text-right"><ul class="nav-icons' . $cls . '">' . $out . '</ul></div>';
+				$output = '<div class="nav-icons col-md-4 col-sm-12 text-right"><ul class="' . $cls . '">'. $out . $loggedInUser .  '</ul></div>';
 			} else {
 				$out = '';
 				foreach ($menus as $menu) {
@@ -46,20 +51,3 @@
 
 	echo menuuserlogin($menus, $y, $x);
 	?>
-
-	<!-- <div class="col-md-4 col-sm-12 text-right">
-		<ul class="nav-icons">
-			<li>
-				<a href="register.html">
-					<i class="ion-person-add"></i>
-					<div>Register</div>
-				</a>
-			</li>
-			<li>
-				<a href="login.html">
-					<i class="ion-person"></i>
-					<div>Login</div>
-				</a>
-			</li>
-		</ul>
-	</div> -->

@@ -1,7 +1,7 @@
 <?php if (!defined('_VALID_BBC')) exit('No direct script access allowed');
 
 if ($user->id > 0) {
-	echo 'You\'re Login as ' . $user->username;
+	// echo 'You\'re Login as ' . $user->username;
 } else {
 ?>
 	<div class="col-md-4 col-sm-12 text-right">

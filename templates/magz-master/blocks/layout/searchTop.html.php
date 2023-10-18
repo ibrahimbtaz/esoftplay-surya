@@ -13,7 +13,7 @@ if (!empty($_SESSION['currSearch'])) {
 			<div class="input-group">
 				<input type="text" class="form-control input-sm  form-control-sm" name="keyword" value="<?php echo $value; ?>" placeholder="<?php echo $placeholder; ?>" />
 				<div class="input-group-btn">
-					<button class="btn btn-primary" type="submit"><?php echo icon('search'); ?></button>
+					<button class="btn btn-primary" type="submit"><i class="ion-search"></i></button>
 				</div>
 			</div>
 		</div>
