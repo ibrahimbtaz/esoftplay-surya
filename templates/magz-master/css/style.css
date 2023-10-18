@@ -3,12 +3,12 @@
 /* @import url('../scripts/bootstrap/bootstrap.min.css'); */
 /* @import url('style_compress.css'); */
 
-@import url('../scripts/ionicons/css/ionicons.min.css');
-@import url('../scripts/toast/jquery.toast.min.css');
-@import url('../scripts/owlcarousel/dist/assets/owl.carousel.min.css');
-@import url('../scripts/owlcarousel/dist/assets/owl.theme.default.min.css');
-@import url('../scripts/magnific-popup/dist/magnific-popup.css');
-@import url('../scripts/sweetalert/dist/sweetalert.css');
+@import url('scripts/ionicons/css/ionicons.min.css');
+@import url('scripts/toast/jquery.toast.min.css');
+@import url('scripts/owlcarousel/dist/assets/owl.carousel.min.css');
+@import url('scripts/owlcarousel/dist/assets/owl.theme.default.min.css');
+@import url('scripts/magnific-popup/dist/magnific-popup.css');
+@import url('scripts/sweetalert/dist/sweetalert.css');
 
 @import url('main.css');
 @import url('skins/all.css');
@@ -50,3 +50,11 @@
 	color: #fff !important;
 }
 
+.item .featured {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	height: 470px;
+	margin-bottom: 20px;
+	overflow: hidden;		
+}
