@@ -1,18 +1,20 @@
 <?php if (!defined('_VALID_BBC')) exit('No direct script access allowed');
 
-if ($user->id > 0) {
-	// echo 'You\'re Login as ' . $user->username;
-} else {
+if (empty($user->id > 0)) {
 ?>
-	<div class="col-md-4 col-sm-12 text-right">
-		<ul class="nav-icons">
-			<li><a href="register.html"><i class="ion-person-add"></i>
-					<div>Register</div>
-				</a></li>
-			<li><a href="login.html"><i class="ion-person"></i>
-					<div>Login</div>
-				</a></li>
-		</ul>
-	</div>
+	<ul class="nav-icons">
+		<li>
+			<a href="<?php echo site_url('user/register') ?>">
+				<i class="ion-person-add"></i>
+				<div><?php echo lang('Register') ?></div>
+			</a>
+		</li>
+		<li>
+			<a href="<?php echo site_url('user/login') ?>">
+				<i class="ion-person"></i>
+				<div><?php echo lang('Login') ?></div>
+			</a>
+		</li>
+	</ul>
 <?php
 }

@@ -2,33 +2,26 @@
 
 $placeholder = lang($config['caption']);
 $value       = '';
-if (!empty($_SESSION['currSearch'])) {
+// if (!empty($_SESSION['currSearch'])) {
+// 	$placeholder = $_SESSION['currSearch'];
+// 	$value       = $_SESSION['currSearch'];
+// }
+
+if ($Bbc->mod['name'] == 'content' && $Bbc->mod['task'] == 'search') {
 	$placeholder = $_SESSION['currSearch'];
 	$value       = $_SESSION['currSearch'];
 }
 ?>
-<div class="col-md-8 col-sm-12">
-	<form method="post" class="search" id="block_search<?php echo $block->id ?>" action="" role="form">
-		<div class="form-group">
-			<div class="input-group">
-				<input type="text" class="form-control input-sm  form-control-sm" name="keyword" value="<?php echo $value; ?>" placeholder="<?php echo $placeholder; ?>" />
-				<div class="input-group-btn">
-					<button class="btn btn-primary" type="submit"><i class="ion-search"></i></button>
-				</div>
+<form method="post" class="search" id="block_search<?php echo $block->id ?>" action="" role="form">
+	<div class="form-group">
+		<div class="input-group">
+			<input type="text" class="form-control input-sm  form-control-sm" name="keyword" value="<?php echo $value; ?>" placeholder="<?php echo $placeholder; ?>" />
+			<div class="input-group-btn">
+				<button class="btn btn-primary" type="submit"><i class="ion-search"></i></button>
 			</div>
 		</div>
-		<div class="help-block">
-			<div>Popular:</div>
-			<ul>
-				<li><a href="#">HTML5</a></li>
-				<li><a href="#">CSS3</a></li>
-				<li><a href="#">Bootstrap 3</a></li>
-				<li><a href="#">jQuery</a></li>
-				<li><a href="#">AnguarJS</a></li>
-			</ul>
-		</div>
-	</form>
-</div>
+	</div>
+</form>
 <script type="text/javascript">
 	_Bbc(function($) {
 		console.log("#block_search<?php echo $block->id ?>");

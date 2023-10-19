@@ -58,3 +58,18 @@
 	margin-bottom: 20px;
 	overflow: hidden;		
 }
+
+.featured .details {
+	padding: 20px 30px;
+	position: absolute;
+	bottom: 10px;
+	width: 100% !important;
+}
+
+.search_popular{
+	margin-top: 0 !important;
+}
+.search_popular .help-block{
+	margin-top: 0 !important;
+	margin-bottom: 5px !important;
+}

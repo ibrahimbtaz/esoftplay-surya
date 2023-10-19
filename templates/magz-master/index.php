@@ -11,17 +11,21 @@
 </head>
 
 <body>
-	<header class="primary">
+	<?php
+	$is_admin = _ADMIN != '' ? 'div' : 'header';
+	?>
+	<<?php echo $is_admin ?> class="primary">
 		<div class="firstbar">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 col-sm-12">
 						<?php echo $sys->block_show('logo'); ?>
 					</div>
-					<div class="col-md-9 col-sm-12">
-						<div class="row">
-							<?php echo $sys->block_show('header'); ?>
-						</div>
+					<div class="col-md-6 col-sm-12">
+						<?php echo $sys->block_show('intro'); ?>
+					</div>
+					<div class="col-md-3 col-sm-12">
+						<?php echo $sys->block_show('header'); ?>
 					</div>
 				</div>
 			</div>
@@ -31,15 +35,13 @@
 				<?php echo $sys->block_show('top') ?>
 			</div>
 		</nav>
-	</header>
+	</<?php echo $is_admin ?>>
 	<section class="home">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-sm-12 col-xs-12">
 					<?php echo $sys->block_show('content_top'); ?>
-					<!-- <div class="" id="featured"> -->
-						<?php echo trim($Bbc->content); ?>
-					<!-- </div> -->
+					<?php echo trim($Bbc->content); ?>
 					<?php echo $sys->block_show('content_bottom'); ?>
 				</div>
 				<div class="col-xs-6 col-md-4 sidebar" id="sidebar">
