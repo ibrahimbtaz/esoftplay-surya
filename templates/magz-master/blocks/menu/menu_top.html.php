@@ -16,7 +16,7 @@ function _horizontal_top($menus, $y = '', $x = '', $level = -1) // $y = 'down' |
 				$sub = call_user_func(__FUNCTION__, $menu['child'], $y, $x, ++$level);
 				if (!empty($sub)) {
 					$act = in_array($menu['id'], $highlight) ? ' active' : '';
-					$out .= '<li class="dropdown' . $act . ' magz-dropdown"><a role="button" data-toggle="dropdown" tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . ' <b class="caret"></b></a>' . $sub . '</li>';
+					$out .= '<li class="dropdown magz-dropdown"><a role="button" data-toggle="dropdown" tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . ' <b class="caret"></b></a>' . $sub . '</li>';
 				} else {
 					$act = in_array($menu['id'], $highlight) ? ' class="active"' : '';
 					$out .= '<li' . $act . '><a href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a></li>';
@@ -29,10 +29,10 @@ function _horizontal_top($menus, $y = '', $x = '', $level = -1) // $y = 'down' |
 				$sub = call_user_func(__FUNCTION__, $menu['child'], $y, $x, ++$level);
 				if (!empty($sub)) {
 					$act = in_array($menu['id'], $highlight) ? ' active' : '';
-					$out .= '<li class="dropdown-submenu' . $act . '"><a tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a>' . $sub . '</li>';
+					$out .= '<li class="dropdown-submenu' . $act . ' "><a tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a>' . $sub . '</li>';
 				} else {
 					$act = in_array($menu['id'], $highlight) ? ' class="active"' : '';
-					$out .= '<li' . $act . '><a href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a></li>';
+					$out .= '<li' . $act . ' ><a href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a></li>';
 				}
 			}
 			$output = '<ul class="dropdown-menu" role="menu">' . $out . '</ul>';
@@ -48,7 +48,6 @@ $x = @$r[1] == 'left' ? 'left' : '';
 ?> 
 <div id="menu-list">
 <?php 
-
 echo _horizontal_top($menus, $y, $x);
 ?>
 </div>

@@ -7,7 +7,12 @@ $value       = '';
 // 	$value       = $_SESSION['currSearch'];
 // }
 
+$is_search = false;
 if ($Bbc->mod['name'] == 'content' && $Bbc->mod['task'] == 'search') {
+	$is_search = true;
+}
+
+if($is_search){
 	$placeholder = $_SESSION['currSearch'];
 	$value       = $_SESSION['currSearch'];
 }

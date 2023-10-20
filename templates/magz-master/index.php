@@ -70,7 +70,7 @@
 	<?php
 	$sys->link_js($sys->template_url . 'js/application.js', false);
 	$sys->link_js($sys->template_url . 'js/jquery.migrate.js', false);
-	// $sys->link_js($sys->template_url . 'scripts/bootstrap/bootstrap.min.js', false);
+	// $sys->link_js($sys->template_url . 'css/scripts/bootstrap/bootstrap.min.js', false);
 	?>
 	<script>
 		var $target_end = $(".best-of-the-week");

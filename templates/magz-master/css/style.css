@@ -73,3 +73,23 @@
 	margin-top: 0 !important;
 	margin-bottom: 5px !important;
 }
+.menu ul>li .dropdown-menu>li {
+	float: none;
+	display: block;
+	position: relative;
+}
+.menu ul>li .dropdown-menu>li:hover>a {
+	color: #fff;
+}
+
+.menu ul>li .dropdown-menu>li>a {
+	background-color: #fff;
+	width: 230px;
+	position: relative;
+	overflow: hidden;
+	transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	padding: 7px 20px;
+}
