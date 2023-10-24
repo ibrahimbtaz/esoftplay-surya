@@ -3,7 +3,7 @@
 $config = $output['config'];
 $arr		=  $output['data'];
 
-function content_category_style($ids, $is_link = true)
+function _category_style($ids, $is_link = true)
 {
 	global $db, $Bbc;
 	$output = array();
@@ -53,7 +53,7 @@ function content_category_style($ids, $is_link = true)
 			<div class="details">
 				<?php
 				if ($config['tag']) {
-					$r = content_category_style($data['id'], $config['tag_link']);
+					$r = _category_style($data['id'], $config['tag_link']);
 					echo '<div class="category text-light">' . implode('', $r) . '</div>';
 				}
 				$link = content_link($data['id'], $data['title']);

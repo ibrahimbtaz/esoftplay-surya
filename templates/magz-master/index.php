@@ -45,7 +45,7 @@
 					<?php echo $sys->block_show('content_bottom'); ?>
 				</div>
 				<div class="col-xs-6 col-md-4 sidebar" id="sidebar">
-					<div class="sidebar-title for-tablet">Sidebar</div>
+					<div class="sidebar-title for-tablet"><?php echo lang('Sidebar') ?></div>
 					<?php echo $sys->block_show('right'); ?>
 				</div>
 			</div>

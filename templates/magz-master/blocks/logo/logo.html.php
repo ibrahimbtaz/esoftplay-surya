@@ -8,8 +8,8 @@
 			<?php echo image($output['image'], $output['size'], 'alt="' . $output['title'] . '" title="' . $output['title'] . '"'); ?>
 		</a>
 	<?php
-	} else {
-		echo image($output['image'], $output['size'], 'alt="' . $output['title'] . '" title="' . $output['title'] . '"' . $output['attribute']);
-	}
+		} else {
+			echo image($output['image'], $output['size'], 'alt="' . $output['title'] . '" title="' . $output['title'] . '"' . $output['attribute']);
+		}
 	?> 
 </div>
