@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 19, 2023 at 04:48 PM
+-- Generation Time: Oct 24, 2023 at 12:07 PM
 -- Server version: 5.7.42-log
 -- PHP Version: 7.4.33
 
@@ -2166,7 +2166,7 @@ CREATE TABLE `bbc_user` (
 --
 
 INSERT INTO `bbc_user` (`id`, `group_ids`, `username`, `password`, `last_ip`, `last_ip_temp`, `last_login`, `last_login_temp`, `exp_checked`, `login_time`, `created`, `active`) VALUES
-(1, ',3,4,1,2,', 'admin', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '::1', '2023-10-19 16:04:48', '2023-10-19 15:56:51', '0000-00-00 00:00:00', 84, '0000-00-00 00:00:00', 1),
+(1, ',3,4,1,2,', 'admin', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '::1', '2023-10-24 12:05:44', '2023-10-23 12:56:25', '2023-10-24 14:05:53', 89, '0000-00-00 00:00:00', 1),
 (2, ',2,1,3,4,', 'danang@fisip.net', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '127.0.0.1', '2023-10-17 10:40:30', '2016-05-03 23:35:44', '0000-00-00 00:00:00', 1, '0000-00-00 00:00:00', 1);
 
 -- --------------------------------------------------------
