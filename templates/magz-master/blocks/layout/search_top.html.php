@@ -2,20 +2,14 @@
 
 $placeholder = lang($config['caption']);
 $value       = '';
-// if (!empty($_SESSION['currSearch'])) {
-// 	$placeholder = $_SESSION['currSearch'];
-// 	$value       = $_SESSION['currSearch'];
-// }
 
-$is_search = false;
 if ($Bbc->mod['name'] == 'content' && $Bbc->mod['task'] == 'search') {
-	$is_search = true;
+	if (!empty($_SESSION['currSearch'])) {
+		$placeholder = $_SESSION['currSearch'];
+		$value       = $_SESSION['currSearch'];
+	}
 }
 
-if($is_search){
-	$placeholder = $_SESSION['currSearch'];
-	$value       = $_SESSION['currSearch'];
-}
 ?>
 <form method="post" class="search" id="block_search<?php echo $block->id ?>" action="" role="form">
 	<div class="form-group">

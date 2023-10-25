@@ -1690,3 +1690,43 @@
 		</li>
 	</ul>
 </div>
+
+
+<div class="nav-icons text-right">
+	<li class="dropdown magz-dropdown open">
+		<a role="button" data-toggle="dropdown" tabindex="-1" href="http://localhost/surya/logout.html" title="Logout" aria-expanded="true">
+			<div>admin</div><b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu pull-right" role="menu">
+			<li><a href="http://localhost/surya/my-profile.html" title="My Profile">
+					<div>My Profile</div>
+				</a></li>
+			<li><a href="http://localhost/surya/my-content.html" title="My Content">
+					<div>My Content</div>
+				</a></li>
+			<li><a href="http://localhost/surya/create-content.html" title="Create Content">
+					<div>Create Content</div>
+				</a></li>
+			<li><a href="http://localhost/surya/change-password.html" title="Change Password">
+					<div>Change Password</div>
+				</a></li>
+			<li><a href="http://localhost/surya/logout.html" title="Logout">
+					<div>Logout</div>
+				</a></li>
+		</ul>
+	</li>
+</div>
+
+<li class="dropdown magz-dropdown">
+	<a role="button" data-toggle="dropdown" tabindex="-1" href="http://localhost/surya/berita.html" title="Berita">
+		Berita <i class="ion-ios-arrow-right"></i>
+	</a>
+	<ul class="dropdown-menu" role="menu">
+		<li>
+			<a href="http://localhost/surya/hot-list.html" title="Hot List">Hot List</a></li>
+		<li>
+			<a href="http://localhost/surya/information.html" title="Information">Information</a></li>
+		<li>
+			<a href="http://localhost/surya/relaxing.html" title="Relaxing">Relaxing</a></li>
+	</ul>
+</li>

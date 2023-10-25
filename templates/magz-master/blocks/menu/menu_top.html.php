@@ -12,26 +12,33 @@ function _horizontal_top($menus, $y = '', $x = '', $level = -1) // $y = 'down' |
 			$cls = !empty($y) ? ' nav-' . $y : '';
 			$cls .= !empty($x) ? ' nav-' . $x : '';
 			$out = '';
+
+			// buat menu untuk tablet
+			$fortablet = '<li class="for-tablet nav-title"><a>Menu</a></li>
+							<li class="for-tablet"><a href="login.html">Login</a></li>
+							<li class="for-tablet"><a href="register.html">Register</a></li>';
+			// harusnya bisa digabungin cuma kurang tau caranya
+
 			foreach ($menus as $menu) {
 				$sub = call_user_func(__FUNCTION__, $menu['child'], $y, $x, ++$level);
 				if (!empty($sub)) {
-					$act = in_array($menu['id'], $highlight) ? ' active' : '';
-					$out .= '<li class="dropdown magz-dropdown"><a role="button" data-toggle="dropdown" tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . ' <b class="caret"></b></a>' . $sub . '</li>';
+					$act 	= in_array($menu['id'], $highlight) ? ' active' : '';
+					$out .= '<li class="dropdown magz-dropdown"><a role="button" data-toggle="dropdown" tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . ' <i class="ion-ios-arrow-right"></i></a>' . $sub . '</li>';
 				} else {
-					$act = in_array($menu['id'], $highlight) ? ' class="active"' : '';
+					$act 	= in_array($menu['id'], $highlight) ? ' class="active"' : '';
 					$out .= '<li' . $act . '><a href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a></li>';
 				}
 			}
-			$output = '<ul class="nav-list' . $cls . '">' . $out . '</ul>';
+			$output = '<div id="menu-list"><ul class="nav-list' . $cls . '">' . $fortablet . $out . '</ul></div>';
 		} else {
 			$out = '';
 			foreach ($menus as $menu) {
 				$sub = call_user_func(__FUNCTION__, $menu['child'], $y, $x, ++$level);
 				if (!empty($sub)) {
-					$act = in_array($menu['id'], $highlight) ? ' active' : '';
+					$act 	= in_array($menu['id'], $highlight) ? ' active' : '';
 					$out .= '<li class="dropdown-submenu' . $act . ' "><a tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a>' . $sub . '</li>';
 				} else {
-					$act = in_array($menu['id'], $highlight) ? ' class="active"' : '';
+					$act 	= in_array($menu['id'], $highlight) ? ' class="active"' : '';
 					$out .= '<li' . $act . ' ><a href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a></li>';
 				}
 			}
@@ -45,9 +52,4 @@ $r = explode(' ', $config['submenu']);
 $y = @$r[0] == 'top' ? 'top' : '';
 $x = @$r[1] == 'left' ? 'left' : '';
 
-?> 
-<div id="menu-list">
-<?php 
 echo _horizontal_top($menus, $y, $x);
-?>
-</div>
