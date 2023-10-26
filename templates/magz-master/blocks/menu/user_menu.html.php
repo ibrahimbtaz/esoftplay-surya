@@ -38,7 +38,7 @@ function _horizontal_login($menus, $y = '', $x = '', $level = -1) // $y = 'down'
 					$act = in_array($menu['id'], $highlight) ? ' active' : '';
 					$out .= '<li class="dropdown-submenu' . $act . '"><a tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a>' . $sub . '</li>';
 				} else {
-					$act = in_array($menu['id'], $highlight) ? ' class="activ	e"' : '';
+					$act = in_array($menu['id'], $highlight) ? ' class="active"' : '';
 					$out .= '<li' . $act . '><a href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a></li>';
 				}
 			}

@@ -78,7 +78,7 @@
 
 	<script src="<?php echo _URL; ?>templates/admin/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 	<?php
-	$sys->link_js($sys->template_url . 'js/application.js', false);
+	// $sys->link_js($sys->template_url . 'js/application.js', false);
 	$sys->link_js($sys->template_url . 'js/jquery.migrate.js', false);
 	// $sys->link_js($sys->template_url . 'css/scripts/bootstrap/bootstrap.min.js', false);
 	?>
