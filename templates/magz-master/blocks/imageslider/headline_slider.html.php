@@ -4,7 +4,6 @@
 	<?php
 	$count = count($output['images']);
 	if ($count > 0) {
-		$style = !empty($output['config']['fixsize']) ? ' style="width:' . @$output['cat']['width'] . 'px;height:' . @$output['cat']['height'] . 'px;overflow:hidden;"' : '';
 		if (!empty($output['config']['control']) && $count > 1) {
 			?>
 			<div class="nav" id="headline-nav">
@@ -18,14 +17,6 @@
 				</a>
 			</div>
 			<?php
-		}
-		if (!empty($output['config']['indicator']) && $count > 1) {
-			echo '<ol class="carousel-indicators">';
-			foreach ($output['images'] as $key => $value) {
-				$cls = $key ? '' : ' class="active"';
-				echo '<li data-target="#imageslider' . $block->id . '" data-slide-to="' . $key . '"' . $cls . '></li>';
-			}
-			echo '</ol>';
 		}
 		?>
 		<div class="owl-carousel owl-theme" id="headline">
