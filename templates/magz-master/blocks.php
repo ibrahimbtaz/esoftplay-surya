@@ -301,6 +301,8 @@
 <div class="line">
 	<div>Latest News</div>
 </div>
+
+#Content#
 <div class="row">
 	<div class="col-md-6 col-sm-6 col-xs-12">
 		<div class="row">
@@ -419,6 +421,7 @@
 		</div>
 	</div>
 </div>
+
 <div class="banner">
 	<a href="#">
 		<img src="templates/magz-master/images/ads.png" alt="Sample Article">

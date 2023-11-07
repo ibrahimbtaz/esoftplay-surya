@@ -128,3 +128,10 @@
 .firstbar ul li ul li a:hover {
 	background-color: #F73F52;
 }
+
+/* article .detail {
+	display: flex;
+	margin-bottom: 5px;
+	font-size: 12px;
+	width: 100% !important;
+} */
