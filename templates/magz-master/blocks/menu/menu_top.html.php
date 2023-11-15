@@ -14,9 +14,9 @@ function _horizontal_top($menus, $y = '', $x = '', $level = -1) // $y = 'down' |
 			$out = '';
 
 			// buat menu untuk tablet
-			$fortablet = '<li class="for-tablet nav-title"><a>Menu</a></li>
-							<li class="for-tablet"><a href="login.html">Login</a></li>
-							<li class="for-tablet"><a href="register.html">Register</a></li>';
+			$fortablet = '<li class="for-tablet nav-title"><a>' . lang('Menu') . '</a></li>
+										<li class="for-tablet"><a href="' . site_url('user/login') . '">' . lang('Login') . '</a></li>
+										<li class="for-tablet"><a href="' . site_url('user/register') . '">' . lang('Register') . '</a></li>';
 			// harusnya bisa digabungin cuma kurang tau caranya
 
 			foreach ($menus as $menu) {
@@ -52,4 +52,17 @@ $r = explode(' ', $config['submenu']);
 $y = @$r[0] == 'top' ? 'top' : '';
 $x = @$r[1] == 'left' ? 'left' : '';
 
+?>
+<div class="brand">
+	<a href="#">
+		<img src="<?php echo _URL; ?>templates/magz-master/images/logo.png" alt="Magz Logo">
+	</a>
+</div>
+<div class="mobile-toggle">
+	<a href="#" data-toggle="menu" data-target="#menu-list"><i class="ion-navicon-round"></i></a>
+</div>
+<div class="mobile-toggle">
+	<a href="#" data-toggle="sidebar" data-target="#sidebar"><i class="ion-ios-arrow-left"></i></a>
+</div>
+<?php
 echo _horizontal_top($menus, $y, $x);

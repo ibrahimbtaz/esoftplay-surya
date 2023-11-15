@@ -54,12 +54,19 @@ function _category_style($ids, $is_link = true)
 				<?php
 				if ($config['tag']) {
 					$r = _category_style($data['id'], $config['tag_link']);
-					echo '<div class="category text-light">' . implode('', $r) . '</div>';
+					echo '<div class="category">' . implode('', $r) . '</div>';
 				}
 				$link = content_link($data['id'], $data['title']);
 				if ($config['title']) {
 					echo ($config['title_link']) ? '<h1><a href="' . $link . '" title="' . $data['title'] . '">' . $data['title'] . '</a></h1>' : '<h1>' . $data['title'] . '</h1>';
 				}
+				?>
+				<article class="time text-muted" style="padding: 10px 0">
+					<?php echo $data['content']; ?>
+					<?php echo ($config['read_more']) ? '<a href="' . $link . '" class="readmore">' . lang('Read more') . '</a>' : ''; ?>
+				</article>
+				<div class="clearfix"></div>
+				<?php
 				$tr = (($config['created'] && $config['author']) || ($config['rating'] && $config['modified'])) ? ' text-right' : '';
 				if ($config['created'] || $config['author']) {
 				?>
@@ -75,9 +82,9 @@ function _category_style($ids, $is_link = true)
 				?>
 					<div class="row">
 						<?php
-						echo ($config['rating']) ? '<div class="col-md-6 text-light time">' . rating($data['rating']) . '</div>' : '';
+						echo ($config['rating']) ? '<div class="col-md-6 time">' . rating($data['rating']) . '</div>' : '';
 						echo (empty($data['revised'])) ? $config['modified'] = 0 : '';
-						echo (!empty($config['modified'])) ? '<div class="col-md-6' . $tr . '"><em class="time text-light">' .  lang('modified') . content_date($data['modified']) . '</em></div>' : '';
+						echo (!empty($config['modified'])) ? '<div class="col-md-6 time' . $tr . '"><span>' .  lang('modified') . content_date($data['modified']) . '</span></div>' : '';
 						?>
 						<div class="clearfix"></div>
 					</div>

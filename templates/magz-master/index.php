@@ -32,17 +32,6 @@
 		</div>
 		<nav class="menu">
 			<div class="container">
-				<div class="brand">
-					<a href="#">
-						<img src="<?php echo _URL; ?>templates/magz-master/images/logo.png" alt="Magz Logo">
-					</a>
-				</div>
-				<div class="mobile-toggle">
-					<a href="#" data-toggle="menu" data-target="#menu-list"><i class="ion-navicon-round"></i></a>
-				</div>
-				<div class="mobile-toggle">
-					<a href="#" data-toggle="sidebar" data-target="#sidebar"><i class="ion-ios-arrow-left"></i></a>
-				</div>
 				<?php echo $sys->block_show('top') ?>
 			</div>
 		</nav>
@@ -79,6 +68,7 @@
 	<script src="<?php echo _URL; ?>templates/admin/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 	<?php
 	// $sys->link_js($sys->template_url . 'js/application.js', false);
+	$sys->link_js($sys->template_url . 'js/jquery.js', false);
 	$sys->link_js($sys->template_url . 'js/jquery.migrate.js', false);
 	// $sys->link_js($sys->template_url . 'css/scripts/bootstrap/bootstrap.min.js', false);
 	?>
