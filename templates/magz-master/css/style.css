@@ -140,3 +140,8 @@
 .article-list figure {
 	background-color: transparent !important;
 }
+
+.article-mini .detail{
+	display: flex;
+	flex-direction: column;
+}

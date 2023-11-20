@@ -14,7 +14,7 @@
 	<?php
 	$is_admin = _ADMIN != '' ? 'div' : 'header';
 	?>
-	<<?php echo $is_admin ?> class="primary">
+	<!-- <<?php echo $is_admin ?> class="primary">
 		<div class="firstbar">
 			<div class="container">
 				<div class="row">
@@ -31,11 +31,9 @@
 			</div>
 		</div>
 		<nav class="menu">
-			<div class="container">
-				<?php echo $sys->block_show('top') ?>
-			</div>
+			<?php echo $sys->block_show('top') ?>
 		</nav>
-	</<?php echo $is_admin ?>>
+	</<?php echo $is_admin ?>> -->
 	<section class="home">
 		<div class="container">
 			<div class="row">
@@ -60,9 +58,17 @@
 
 	<footer class="footer">
 		<div class="container">
-			<?php echo $sys->block_show('footer') ?>
+			<div class="row">
+				<?php echo $sys->block_show('footer') ?>
+			</div>
 		</div>
-		<?php echo config('site', 'footer'); ?>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="copyright">
+					<?php echo config('site', 'footer'); ?>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 	<script src="<?php echo _URL; ?>templates/admin/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
