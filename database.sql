@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 20, 2023 at 03:49 PM
+-- Generation Time: Nov 22, 2023 at 04:52 PM
 -- Server version: 5.7.42-log
 -- PHP Version: 7.4.33
 
@@ -275,31 +275,32 @@ INSERT INTO `bbc_block` (`id`, `template_id`, `block_ref_id`, `position_id`, `sh
 (119, 6, 3, 9, 1, '', 900, 12, ',all,', ',-1,', '', '', '', '{\"template\":\"thumbnail-only\",\"kind_id\":\"1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"0\",\"title_link\":\"0\",\"intro\":\"intro\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"3\",\"thumbnail\":\"0\"}', 3, 1),
 (120, 4, 3, 9, 0, '', 900, 27, ',all,', ',-1,', '', '', '', '{\"template\":\"thumbnail-only\",\"kind_id\":\"1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"0\",\"title_link\":\"0\",\"intro\":\"intro\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"3\",\"thumbnail\":\"0\"}', 1, 1),
 (121, 4, 10, 1, 0, '', 0, 27, ',logged,', ',all,', '', '', '', '{\"template\":\"menu-vertical\",\"cat_id\":\"3\",\"submenu\":\"bottom+right\"}', 1, 1),
-(160, 8, 10, 3, 0, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"menu_top\",\"cat_id\":\"1\",\"submenu\":\"bottom+right\"}', 1, 1),
-(165, 8, 10, 5, 0, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"usermenu\",\"cat_id\":\"3\",\"submenu\":\"bottom+right\"}', 2, 1),
-(166, 8, 6, 10, 0, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"search_top\",\"caption\":\"Type+something+here\"}', 1, 1),
-(169, 8, 10, 10, 0, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"popular_search\",\"cat_id\":\"7\",\"submenu\":\"bottom+right\"}', 2, 1),
+(160, 8, 10, 3, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"menu_top\",\"cat_id\":\"1\",\"submenu\":\"bottom+right\"}', 1, 1),
+(165, 8, 10, 5, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"usermenu\",\"cat_id\":\"3\",\"submenu\":\"bottom+right\"}', 2, 1),
+(166, 8, 6, 10, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"search_top\",\"caption\":\"Type+something+here\"}', 1, 1),
+(169, 8, 10, 10, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"popular_search\",\"cat_id\":\"7\",\"submenu\":\"bottom+right\"}', 2, 1),
 (172, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_popular\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 2, 1),
-(187, 8, 3, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_hot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 4, 1),
-(190, 8, 16, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"trending_tags\",\"tag_type\":\"1\",\"duration\":\"30\",\"tag_ids\":\"\",\"limit\":\"5\"}', 3, 1),
-(180, 8, 10, 5, 0, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"loginmenu\",\"cat_id\":\"4\",\"submenu\":\"bottom+right\"}', 1, 1),
+(187, 8, 3, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_hot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 5, 1),
+(190, 8, 16, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"trending_tags\",\"tag_type\":\"1\",\"duration\":\"30\",\"tag_ids\":\"\",\"limit\":\"5\"}', 4, 1),
+(180, 8, 10, 5, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"loginmenu\",\"cat_id\":\"4\",\"submenu\":\"bottom+right\"}', 1, 1),
 (182, 8, 3, 4, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_slider\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
-(201, 8, 9, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"company_info\",\"image\":\"images%2Fuploads%2Flogo-light.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"index.php%3Fmod%3Dcontent.detail%26id%3D14%26title%3DPenandatanganan+Bantuan+Kapal+Penyebrangan\",\"title\":\"Magz+is+a+HTML5+%26amp%3B+CSS3+magazine+template+based+on+Bootstrap+3.\",\"attribute\":\"\"}', 1, 1),
+(201, 8, 9, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"company_info\",\"image\":\"images%2Fuploads%2Flogo-light.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"about-us.html\",\"title\":\"Magz+is+a+HTML5+%26amp%3B+CSS3+magazine+template+based+on+Bootstrap+3.\",\"attribute\":\"\"}', 1, 1),
 (202, 8, 16, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"popular_tags\",\"tag_type\":\"1\",\"duration\":\"\",\"tag_ids\":\"\",\"limit\":\"5\"}', 2, 1),
-(203, 8, 18, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"foot_newslatter\",\"caption\":\"Your+mail\",\"info\":\"By+subscribing+you+will+receive+new+articles+in+your+email.\"}', 5, 1),
-(204, 8, 3, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_foot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 3, 1),
-(208, 8, 20, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"sosmed\",\"info\":\"Follow+us+and+stay+in+touch+to+get+the+latest+news\",\"facebook\":\"https%3A%2F%2Fwww.facebook.com%2F\",\"twitter\":\"https%3A%2F%2Ftwitter.com%2F\",\"youtube\":\"https%3A%2F%2Fwww.youtube.com%2F\",\"googleplus\":\"https%3A%2F%2Fplus.google.com%2F\",\"instagram\":\"https%3A%2F%2Fwww.instagram.com%2F\",\"tumblr\":\"https%3A%2F%2Fwww.tumblr.com%2F\",\"dribbble\":\"https%3A%2F%2Fdribbble.com%2F\",\"linkedin\":\"https%3A%2F%2Fwww.linkedin.com%2F\",\"skype\":\"https%3A%2F%2Fwww.skype.com%2F\",\"rss\":\"https%3A%2F%2Fwww.pinterest.com%2F\"}', 4, 1),
-(209, 8, 10, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"menu_bot\",\"cat_id\":\"8\",\"submenu\":\"bottom+right\"}', 6, 1),
-(177, 8, 3, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 5, 1),
-(178, 8, 3, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_grid\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"6\",\"thumbnail\":\"1\"}', 1, 1),
+(203, 8, 18, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"foot_newslatter\",\"caption\":\"Your+mail\",\"info\":\"By+subscribing+you+will+receive+new+articles+in+your+email.\"}', 3, 1),
+(204, 8, 3, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_foot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 4, 1),
+(208, 8, 20, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"sosmed\",\"info\":\"Follow+us+and+stay+in+touch+to+get+the+latest+news\",\"facebook\":\"https%3A%2F%2Fwww.facebook.com%2F\",\"twitter\":\"https%3A%2F%2Ftwitter.com%2F\",\"youtube\":\"https%3A%2F%2Fwww.youtube.com%2F\",\"googleplus\":\"https%3A%2F%2Fplus.google.com%2F\",\"instagram\":\"https%3A%2F%2Fwww.instagram.com%2F\",\"tumblr\":\"https%3A%2F%2Fwww.tumblr.com%2F\",\"dribbble\":\"https%3A%2F%2Fdribbble.com%2F\",\"linkedin\":\"https%3A%2F%2Fwww.linkedin.com%2F\",\"skype\":\"https%3A%2F%2Fwww.skype.com%2F\",\"rss\":\"https%3A%2F%2Fwww.pinterest.com%2F\"}', 5, 1),
+(209, 8, 10, 6, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"menu_bot\",\"cat_id\":\"2\",\"submenu\":\"bottom+right\"}', 6, 1),
+(215, 8, 7, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"sponsored_ads\",\"show\":\"1\",\"limit\":\"4\"}', 6, 1),
+(216, 8, 7, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"banner_ads\",\"show\":\"1\",\"limit\":\"1\"}', 3, 1),
+(177, 8, 3, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 6, 1),
+(178, 8, 3, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_grid\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"6\",\"thumbnail\":\"1\"}', 1, 1),
 (197, 8, 18, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"default\",\"caption\":\"Your+mail\",\"info\":\"By+subscribing+you+will+receive+new+articles+in+your+email.\"}', 3, 1),
 (193, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_recomended\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 4, 1),
-(147, 8, 4, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"\",\"content\":\"%3Caside+id%3D%22sponsored%22%3E%0D%0A%09%3Ch1+class%3D%22aside-title%22%3ESponsored%3C%2Fh1%3E%0D%0A%09%3Cdiv+class%3D%22aside-body%22%3E%0D%0A%09%09%3Cul+class%3D%22sponsored%22%3E%0D%0A%09%09%09%3Cli%3E%0D%0A%09%09%09%09%3Ca+href%3D%22%23%22%3E%0D%0A%09%09%09%09%09%3Cimg+src%3D%22templates%2Fmagz-master%2Fimages%2Fsponsored.png%22+alt%3D%22Sponsored%22%3E%0D%0A%09%09%09%09%3C%2Fa%3E%0D%0A%09%09%09%3C%2Fli%3E%0D%0A%09%09%09%3Cli%3E%0D%0A%09%09%09%09%3Ca+href%3D%22%23%22%3E%0D%0A%09%09%09%09%09%3Cimg+src%3D%22templates%2Fmagz-master%2Fimages%2Fsponsored.png%22+alt%3D%22Sponsored%22%3E%0D%0A%09%09%09%09%3C%2Fa%3E%0D%0A%09%09%09%3C%2Fli%3E%0D%0A%09%09%09%3Cli%3E%0D%0A%09%09%09%09%3Ca+href%3D%22%23%22%3E%0D%0A%09%09%09%09%09%3Cimg+src%3D%22templates%2Fmagz-master%2Fimages%2Fsponsored.png%22+alt%3D%22Sponsored%22%3E%0D%0A%09%09%09%09%3C%2Fa%3E%0D%0A%09%09%09%3C%2Fli%3E%0D%0A%09%09%09%3Cli%3E%0D%0A%09%09%09%09%3Ca+href%3D%22%23%22%3E%0D%0A%09%09%09%09%09%3Cimg+src%3D%22templates%2Fmagz-master%2Fimages%2Fsponsored.png%22+alt%3D%22Sponsored%22%3E%0D%0A%09%09%09%09%3C%2Fa%3E%0D%0A%09%09%09%3C%2Fli%3E%0D%0A%09%09%3C%2Ful%3E%0D%0A%09%3C%2Fdiv%3E%0D%0A%3C%2Faside%3E\",\"type\":\"none\"}', 6, 1),
 (194, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"right_profile\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"1\",\"author\":\"1\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
 (191, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_video\",\"kind_id\":\"3\",\"type_id\":\"1\",\"cat_id\":\"4\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"0\"}', 5, 1),
-(186, 8, 9, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"banner_iklan\",\"image\":\"images%2Fuploads%2Fads.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"\",\"attribute\":\"\"}', 2, 1),
-(150, 8, 9, 7, 0, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"logo\",\"image\":\"images%2Fuploads%2Flogo.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"Magz+Logo\",\"attribute\":\"\"}', 1, 1),
-(168, 8, 14, 8, 0, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"headline\",\"cat_id\":\"1\",\"caption\":\"1\",\"indicator\":\"1\",\"control\":\"1\"}', 1, 1);
+(186, 8, 9, 9, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"banner_iklan\",\"image\":\"images%2Fuploads%2Fads.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"\",\"attribute\":\"\"}', 2, 0),
+(150, 8, 9, 7, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"logo\",\"image\":\"images%2Fuploads%2Flogo.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"Magz+Logo\",\"attribute\":\"\"}', 1, 1),
+(168, 8, 14, 8, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"headline\",\"cat_id\":\"1\",\"caption\":\"1\",\"indicator\":\"1\",\"control\":\"1\"}', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -512,7 +513,6 @@ INSERT INTO `bbc_block_text` (`block_id`, `title`, `lang_id`) VALUES
 (201, 'Company Info', 1),
 (194, 'Profile', 1),
 (193, 'Recomended', 1),
-(147, 'Sponsored', 1),
 (191, 'Videos', 1),
 (202, 'Popular Tags', 1),
 (165, 'usermenu', 1),
@@ -522,12 +522,14 @@ INSERT INTO `bbc_block_text` (`block_id`, `title`, `lang_id`) VALUES
 (169, 'popular_search', 1),
 (178, 'Latest News', 1),
 (182, 'Best Of The Week', 1),
-(186, 'Banner Iklan', 1),
+(186, 'Banner Iklan logo', 1),
 (203, 'Newsletter', 1),
 (190, 'Trending Tags', 1),
 (204, 'Latest News', 1),
 (209, 'menu_bot', 1),
-(208, 'Follow Us', 1);
+(208, 'Follow Us', 1),
+(215, 'Sponsored', 1),
+(216, 'Banner Iklan links', 1);
 
 -- --------------------------------------------------------
 
@@ -671,17 +673,17 @@ INSERT INTO `bbc_content` (`id`, `par_id`, `type_id`, `kind_id`, `file`, `file_u
 (1, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'home-page.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 16, ',all,', 605, '0,0,1,2,0', '2023-10-12 21:24:10', 1, 1, 0, '', 1),
 (2, 0, 1, 1, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'images/modules/content/2/alam-6.jpg', '', '[{\"image\":\"alam-6.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"alam-5.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"alam-4.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"alam-3.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"alam-2.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"alam-1.jpg\",\"title\":\"\",\"description\":\"\"}]', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 8, ',all,', 312, '0', '2016-05-25 00:04:32', 1, 0, 0, '', 1),
 (3, 0, 1, 1, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'images/modules/content/3/art-2.jpg', '', '[{\"image\":\"art-2.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"art-6.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"art-5.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"art-4.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"art-3.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"art-1.jpg\",\"title\":\"\",\"description\":\"\"}]', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 6, ',all,', 38, '0', '2019-06-14 08:24:31', 1, 0, 0, '', 1),
-(4, 0, 1, 1, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'images/modules/content/4/drone-6.jpg', '', '[{\"image\":\"drone-6.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-5.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-4.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-3.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-2.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-1.jpg\",\"title\":\"\",\"description\":\"\"}]', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 312, '0', '2016-05-25 00:03:53', 0, 0, 0, '', 1),
+(4, 0, 1, 1, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'images/modules/content/4/drone-6.jpg', '', '[{\"image\":\"drone-6.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-5.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-4.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-3.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-2.jpg\",\"title\":\"\",\"description\":\"\"},{\"image\":\"drone-1.jpg\",\"title\":\"\",\"description\":\"\"}]', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 313, '0', '2023-11-21 12:12:13', 0, 0, 0, '', 1),
 (5, 0, 1, 2, 'sample_document.docx', '', 'word', 0, 0, 3, '2016-05-03 21:08:25', '127.0.0.1', '', '', 'sample-download-file-satu.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 8, ',all,', 45, '0', '2016-05-25 00:06:05', 1, 0, 0, '', 1),
 (6, 0, 1, 2, 'sample_document.xlsx', '', 'excel', 0, 0, 2, '2016-05-03 21:08:09', '127.0.0.1', '', '', 'sample-download-file-dua.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 56, '0', '2019-06-14 08:24:55', 0, 0, 0, '', 1),
-(7, 0, 1, 2, 'sample_document.pptx', '', 'powerpoint', 0, 1, 0, '0000-00-00 00:00:00', '', '', '', 'sample-download-file-tiga.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 13, ',all,', 355, '0,1,0,1,0', '2019-07-04 22:32:15', 1, 0, 0, '', 1),
+(7, 0, 1, 2, 'sample_document.pptx', '', 'powerpoint', 0, 1, 0, '0000-00-00 00:00:00', '', '', '', 'sample-download-file-tiga.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 13, ',all,', 356, '0,1,0,1,0', '2023-11-21 12:11:48', 1, 0, 0, '', 1),
 (8, 0, 1, 3, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', 'u_orGF2zM5o', '', 'http://i2.ytimg.com/vi/u_orGF2zM5o/0.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 9, ',all,', 259, '0', '2023-11-10 10:19:30', 1, 0, 0, '', 1),
 (9, 0, 1, 3, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', 'qREKP9oijWI', '', 'http://i2.ytimg.com/vi/qREKP9oijWI/0.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 294, '0', '2016-05-25 00:06:10', 1, 0, 0, '', 1),
-(10, 0, 1, 3, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '-dNp7DQJMP8', '', 'http://i2.ytimg.com/vi/-dNp7DQJMP8/0.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 423, '0', '2023-11-10 10:19:48', 1, 0, 0, '', 1),
+(10, 0, 1, 3, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '-dNp7DQJMP8', '', 'http://i2.ytimg.com/vi/-dNp7DQJMP8/0.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 424, '0', '2023-11-22 11:36:46', 1, 0, 0, '', 1),
 (11, 0, 1, 4, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '87616772', 'https://i1.sndcdn.com/artworks-000045363067-gy0gm1-t500x500.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 12, ',all,', 301, '0', '2016-05-25 00:06:15', 1, 0, 0, '', 1),
 (12, 0, 1, 4, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '62576046', 'https://i1.sndcdn.com/artworks-000031744302-0730nk-t500x500.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 14, ',all,', 308, '0', '2016-05-03 21:07:17', 1, 0, 0, '', 1),
-(13, 0, 1, 4, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '24600650', 'https://i1.sndcdn.com/artworks-000012244956-xfjnke-t500x500.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 291, '0', '2023-10-18 18:19:45', 1, 0, 0, '', 1),
-(14, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'penandatanganan-bantuan-kapal-penyebrangan.jpg', 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 12, ',all,', 291, '0', '2023-11-20 09:43:15', 1, 0, 0, '', 1),
+(13, 0, 1, 4, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '24600650', 'https://i1.sndcdn.com/artworks-000012244956-xfjnke-t500x500.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 292, '0', '2023-11-22 11:36:42', 1, 0, 0, '', 1),
+(14, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'penandatanganan-bantuan-kapal-penyebrangan.jpg', 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 12, ',all,', 292, '0', '2023-11-21 12:13:27', 1, 0, 0, '', 1),
 (15, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'merevitalisasi-sektor-pelayaran.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 342, '0,0,0,0,1', '2016-04-15 18:49:27', 0, 0, 0, '', 1),
 (16, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'transportasi-yang-efisien.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 6, ',all,', 381, '0', '2015-09-03 02:36:44', 1, 0, 0, '', 1),
 (17, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', '8-langkah-hindari-kehilangan-mobil.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 8, ',all,', 404, '0', '2016-04-15 18:49:19', 0, 0, 0, '', 1),
@@ -700,12 +702,12 @@ INSERT INTO `bbc_content` (`id`, `par_id`, `type_id`, `kind_id`, `file`, `file_u
 (30, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'apa-kabar-sistranas.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 3, ',all,', 41, '0', '2011-04-25 13:09:44', 1, 0, 0, '', 1),
 (31, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'konektivitas-nusantara.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 18, ',all,', 40, '0', '2011-04-25 13:09:53', 1, 0, 0, '', 1),
 (32, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'membumikan-transportasi-ke-ranah-lokal.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 117, '0', '2016-04-16 04:03:32', 0, 0, 0, '', 0),
-(33, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'nikmat-teh-di-pasar-terapung.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 316, '0', '2023-11-15 12:53:38', 1, 0, 0, '', 1),
-(34, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'tol-semakin-dikebut.png', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-14 16:32:48', 1, 14, ',all,', 393, '0,0,0,1,0', '2023-11-15 15:51:28', 1, 0, 0, '', 1),
-(35, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'dermaga-batubara-terbesar.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 325, '0', '2023-11-04 06:07:22', 0, 0, 0, '', 1),
-(36, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'belawan-terus-berbenah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 413, '0', '2023-11-17 08:30:01', 1, 0, 0, '', 1),
-(37, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'pasar-perintis-kian-seksi.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 17, ',all,', 219, '0,0,0,0,1', '2023-11-16 18:58:39', 1, 0, 0, '', 1),
-(38, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'garuda-buka-rute-surabaya-jeddah.png', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-20 10:14:52', 1, 64, ',all,', 205, '0,0,1,1,0', '2023-11-20 15:29:25', 1, 0, 0, '', 1);
+(33, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'nikmat-teh-di-pasar-terapung.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 317, '0', '2023-11-22 11:38:15', 1, 0, 0, '', 1),
+(34, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'tol-semakin-dikebut.png', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-14 16:32:48', 1, 14, ',all,', 395, '0,0,0,1,0', '2023-11-22 11:38:27', 1, 0, 0, '', 1),
+(35, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'dermaga-batubara-terbesar.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 326, '0', '2023-11-21 14:10:36', 0, 0, 0, '', 1),
+(36, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'belawan-terus-berbenah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 414, '0', '2023-11-21 14:10:36', 1, 0, 0, '', 1),
+(37, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'pasar-perintis-kian-seksi.png', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-21 17:17:56', 1, 22, ',all,', 221, '0,0,0,0,1', '2023-11-22 10:13:52', 1, 0, 0, '', 1),
+(38, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'garuda-buka-rute-surabaya-jeddah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-21 12:55:19', 1, 69, ',all,', 208, '0,0,1,1,0', '2023-11-22 11:35:11', 1, 0, 0, '', 1);
 
 -- --------------------------------------------------------
 
@@ -989,7 +991,6 @@ INSERT INTO `bbc_content_comment` (`id`, `par_id`, `user_id`, `reply_all`, `repl
 (41, 0, 0, 0, 0, 14, 'Sample Content Detail', 'tusi', 'http://graph.facebook.com/100001636105240/picture', 'thoesiygemini@yahoo.co.id', '', 'klo dr akuntansi bsa msuk akbid,, pa ujian tulisnya tetap sama', '2010-12-15 12:59:29', 1),
 (42, 0, 0, 0, 0, 1, 'Home page', 'Perusahaan', 'http://graph.facebook.com/100011328960689/picture', 'info@perusahaan.ac.id', '', '[ untuk alumni smk akuntansi bisa masuk apa tidak? ]\nOwh tentu saja bisa, perusahaan menerima semua jurusan untuk SMU atau sederajat.. :)', '2011-03-23 13:59:17', 1),
 (43, 0, 1, 0, 0, 34, 'Tol Semakin Dikebut', 'Administrator', 'https://lh3.googleusercontent.com/a/ACg8ocI_n3hawmpgylNZE8KrxKvysQ9WVFRF1tE8Pdp3e0F4c8g=s96-c', 'tmp@fisip.net', 'http://localhost', 'hahahhaa', '2023-11-04 06:24:12', 1),
-(44, 0, 1, 0, 0, 38, 'Garuda Buka Rute Surabaya - Jeddah', 'Administrator', 'https://lh3.googleusercontent.com/a/ACg8ocI_n3hawmpgylNZE8KrxKvysQ9WVFRF1tE8Pdp3e0F4c8g=s96-c', 'tmp@fisip.net', 'http://localhost', 'yahalo', '2023-11-16 15:49:38', 1),
 (45, 0, 0, 0, 0, 37, 'Pasar Perintis Kian Seksi', 'Ibrahimbtaz', 'https://lh3.googleusercontent.com/a/ACg8ocI-rO4H0OtsfOniCrpnGNtxqqoPUKy9d_nhHolHDGUeZQ=s96-c', 'ibrahimbtaz@gmail.com', '', 'hello', '2023-11-16 18:59:09', 1);
 
 -- --------------------------------------------------------
@@ -1126,7 +1127,9 @@ CREATE TABLE `bbc_content_tag` (
 --
 
 INSERT INTO `bbc_content_tag` (`id`, `title`, `total`, `created`, `updated`) VALUES
-(2, 'Anime', 1, '2023-11-16 16:28:29', '0000-00-00 00:00:00');
+(3, 'Halo', 1, '2023-11-21 15:31:42', '0000-00-00 00:00:00'),
+(2, 'Anime', 1, '2023-11-16 16:28:29', '0000-00-00 00:00:00'),
+(4, 'Surya', 1, '2023-11-21 15:31:42', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -1144,7 +1147,9 @@ CREATE TABLE `bbc_content_tag_list` (
 --
 
 INSERT INTO `bbc_content_tag_list` (`tag_id`, `content_id`) VALUES
-(2, 38);
+(2, 38),
+(3, 37),
+(4, 37);
 
 -- --------------------------------------------------------
 
@@ -1206,7 +1211,7 @@ INSERT INTO `bbc_content_text` (`content_id`, `title`, `description`, `keyword`,
 (34, 'Tol Semakin Dikebut', 'Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry\'s standard dummy text ever', 'keyword yang bisa di ganti sendiri', '', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />\r\n<u><em><strong>Why do we use it?</strong></em></u><br />\r\n<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br />\r\n&nbsp;<br />\r\nWhere does it come from?<br />\r\n<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.<br />\r\n<br />\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.<br />\r\nWhere can I get some?<br />\r\n<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', 1),
 (35, 'Dermaga Batubara Terbesar', 'Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry\'s standard dummy text ever', 'keyword yang bisa di ganti sendiri', '', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />\r\nWhy do we use it?<br />\r\n<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br />\r\n&nbsp;<br />\r\nWhere does it come from?<br />\r\n<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.<br />\r\n<br />\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.<br />\r\nWhere can I get some?<br />\r\n<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', 1),
 (36, 'Belawan Terus Berbenah', 'Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry\'s standard dummy text ever', 'keyword yang bisa di ganti sendiri', '', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />\r\nWhy do we use it?<br />\r\n<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br />\r\n&nbsp;<br />\r\nWhere does it come from?<br />\r\n<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.<br />\r\n<br />\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.<br />\r\nWhere can I get some?<br />\r\n<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', 1),
-(37, 'Pasar Perintis Kian Seksi', 'Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry\'s standard dummy text ever', 'keyword yang bisa di ganti sendiri', '', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />\r\nWhy do we use it?<br />\r\n<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br />\r\n&nbsp;<br />\r\nWhere does it come from?<br />\r\n<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.<br />\r\n<br />\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.<br />\r\nWhere can I get some?<br />\r\n<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', 1),
+(37, 'Pasar Perintis Kian Seksi', 'Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry\'s standard dummy text ever', 'keyword yang bisa di ganti sendiri', '', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />\r\nWhy do we use it?<br />\r\n<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br />\r\n&nbsp;<br />\r\nWhere does it come from?<br />\r\n<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.<br />\r\n<br />\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.<br />\r\nWhere can I get some?<br />\r\n<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', 1),
 (38, 'Garuda Buka Rute Surabaya - Jeddah', 'Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry\'s standard dummy text ever', 'keyword yang bisa di ganti sendiri', '', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />\r\nWhy do we use it?<br />\r\n<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br />\r\n&nbsp;<br />\r\nWhere does it come from?<br />\r\n<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.<br />\r\n<br />\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.<br />\r\nWhere can I get some?<br />\r\n<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', 1);
 
 -- --------------------------------------------------------
@@ -1917,7 +1922,7 @@ INSERT INTO `bbc_menu` (`id`, `par_id`, `module_id`, `seo`, `link`, `orderby`, `
 (37, 0, 10, 'testimonial', 'index.php?mod=testimonial.main', 1, 2, 0, 0, 0, 0, 0, 0, 0, 1),
 (38, 0, 2, 'my-profile', 'index.php?mod=user.account', 1, 3, 1, 0, 0, 0, 0, 0, 0, 1),
 (39, 0, 4, 'my-content', 'index.php?mod=content.posted', 2, 3, 1, 0, 0, 0, 0, 0, 0, 1),
-(40, 0, 5, 'agenda', 'index.php?mod=agenda.main', 2, 2, 0, 0, 0, 0, 0, 0, 0, 1),
+(40, 0, 5, 'agenda', 'index.php?mod=agenda.main', 2, 2, 0, 0, 0, 0, 0, 0, 0, 0),
 (41, 40, 5, 'kalender', 'index.php?mod=agenda.calendar', 1, 2, 0, 0, 0, 0, 0, 0, 0, 1),
 (42, 40, 5, 'rutinitas', 'index.php?mod=agenda.routine', 2, 2, 0, 0, 0, 0, 0, 0, 0, 1),
 (43, 40, 5, 'event', 'index.php?mod=agenda.events', 3, 2, 0, 0, 0, 0, 0, 0, 0, 1),
@@ -1942,7 +1947,7 @@ INSERT INTO `bbc_menu` (`id`, `par_id`, `module_id`, `seo`, `link`, `orderby`, `
 (62, 61, 4, 'hot-list', 'index.php?mod=content.list&id=9&title=Hot+List', 1, 1, 0, 0, 0, 0, 1, 9, 0, 1),
 (63, 61, 4, 'information', 'index.php?mod=content.list&id=8&title=Information', 2, 1, 0, 0, 0, 0, 1, 8, 0, 1),
 (64, 61, 4, 'relaxing', 'index.php?mod=content.list&id=7&title=Relaxing', 3, 1, 0, 0, 0, 0, 1, 7, 0, 1),
-(65, 0, 11, 'search', 'index.php?mod=search.main', 5, 2, 0, 0, 0, 0, 0, 0, 0, 1),
+(65, 0, 11, 'search', 'index.php?mod=search.main', 5, 2, 0, 0, 0, 0, 0, 0, 0, 0),
 (66, 0, 4, 'galleries', 'index.php?mod=content.list&id=2&title=Gallery', 6, 1, 0, 0, 0, 0, 1, 2, 0, 1),
 (67, 0, 4, 'downloads', 'index.php?mod=content.list&id=3&title=Download', 7, 1, 0, 0, 0, 0, 1, 3, 0, 1),
 (68, 0, 4, 'audios', 'index.php?mod=content.list&id=5&title=Sound+Audio', 8, 1, 0, 0, 0, 0, 1, 5, 0, 1),
@@ -1951,7 +1956,7 @@ INSERT INTO `bbc_menu` (`id`, `par_id`, `module_id`, `seo`, `link`, `orderby`, `
 (71, 0, 8, 'links', 'index.php?mod=links.main', 11, 1, 0, 0, 0, 0, 0, 0, 0, 1),
 (72, 0, 2, 'login', 'index.php?mod=user.login', 2, 4, 0, 0, 0, 0, 0, 0, 0, 1),
 (73, 0, 2, 'register', 'index.php?mod=user.register', 1, 4, 0, 0, 0, 0, 0, 0, 0, 1),
-(97, 0, 4, 'home0', 'index.php?mod=content.main', 1, 8, 0, 0, 0, 0, 0, 0, 0, 1),
+(97, 0, 5, 'home97', '', 1, 8, 0, 0, 0, 0, 0, 0, 0, 1),
 (98, 0, 4, 'partner', 'index.php?mod=content.main', 2, 8, 0, 0, 0, 0, 0, 0, 0, 1),
 (99, 0, 6, 'contact', 'index.php?mod=contact.main', 3, 8, 0, 0, 0, 0, 0, 0, 0, 1),
 (100, 0, 4, 'about', 'index.php?mod=content.main', 4, 8, 0, 0, 0, 0, 0, 0, 0, 1),
@@ -2181,7 +2186,7 @@ CREATE TABLE `bbc_user` (
 --
 
 INSERT INTO `bbc_user` (`id`, `group_ids`, `username`, `password`, `last_ip`, `last_ip_temp`, `last_login`, `last_login_temp`, `exp_checked`, `login_time`, `created`, `active`) VALUES
-(1, ',3,4,1,2,', 'admin', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '127.0.0.1', '2023-11-20 14:33:36', '2023-11-20 13:10:47', '2023-11-20 17:49:50', 134, '0000-00-00 00:00:00', 1),
+(1, ',3,4,1,2,', 'admin', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '::1', '2023-11-22 15:52:52', '2023-11-22 15:49:49', '2023-11-22 18:52:34', 141, '0000-00-00 00:00:00', 1),
 (2, ',2,1,3,4,', 'danang@fisip.net', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '127.0.0.1', '2023-10-17 10:40:30', '2016-05-03 23:35:44', '0000-00-00 00:00:00', 1, '0000-00-00 00:00:00', 1);
 
 -- --------------------------------------------------------
@@ -2455,10 +2460,10 @@ CREATE TABLE `links` (
 --
 
 INSERT INTO `links` (`id`, `title`, `link`, `image`, `orderby`, `publish`) VALUES
-(1, 'Dirjen Pendidikan Tinggi', 'http://dikti.go.id/', '', 1, 1),
-(2, 'Departemen Kesehatan RI', 'http://depkes.go.id/', '', 4, 1),
-(3, 'Pusat Informasi dan Konseling Kesehatan Reproduksi (PIKKR)', 'http://pikkr.wordpress.com/', '', 2, 1),
-(4, 'Dinas Kesehatan Provinsi DIY', 'http://fisip.net/', '', 3, 1),
+(1, 'Dirjen Pendidikan Tinggi', 'http://dikti.go.id/', '655d805bc876b.png', 1, 1),
+(2, 'Departemen Kesehatan RI', 'http://depkes.go.id/', '655d80d52317a.png', 4, 1),
+(3, 'Pusat Informasi dan Konseling Kesehatan Reproduksi (PIKKR)', 'http://pikkr.wordpress.com/', '655d7e7d27350.jpeg', 2, 1),
+(4, 'Dinas Kesehatan Provinsi DIY', 'http://fisip.net/', '655d7e7d2759b.png', 3, 1),
 (5, 'Download', 'http://www.ifwdb.com/', '', 5, 1);
 
 -- --------------------------------------------------------
@@ -2474,6 +2479,31 @@ CREATE TABLE `links_ad` (
   `javascript` text NOT NULL,
   `publish` tinyint(1) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `links_ad`
+--
+
+INSERT INTO `links_ad` (`id`, `name`, `content`, `javascript`, `publish`) VALUES
+(1, 'surya_ads', 'ini conotoh iklan', '', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `links_share`
+--
+
+CREATE TABLE `links_share` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `title` varchar(150) DEFAULT NULL,
+  `description` text,
+  `image` varchar(255) DEFAULT NULL,
+  `link` varchar(255) DEFAULT NULL,
+  `total` bigint(20) DEFAULT '0',
+  `publish` tinyint(1) DEFAULT '1',
+  `created` datetime DEFAULT CURRENT_TIMESTAMP,
+  `updated` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -3251,6 +3281,14 @@ ALTER TABLE `links_ad`
   ADD KEY `publish` (`publish`);
 
 --
+-- Indexes for table `links_share`
+--
+ALTER TABLE `links_share`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `total` (`total`),
+  ADD KEY `publish` (`publish`);
+
+--
 -- Indexes for table `survey_polling`
 --
 ALTER TABLE `survey_polling`
@@ -3385,7 +3423,7 @@ ALTER TABLE `bbc_alert`
 -- AUTO_INCREMENT for table `bbc_block`
 --
 ALTER TABLE `bbc_block`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=210;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=217;
 
 --
 -- AUTO_INCREMENT for table `bbc_block_position`
@@ -3463,7 +3501,7 @@ ALTER TABLE `bbc_content_schedule`
 -- AUTO_INCREMENT for table `bbc_content_tag`
 --
 ALTER TABLE `bbc_content_tag`
-  MODIFY `id` int(255) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(255) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `bbc_content_trash`
@@ -3607,7 +3645,13 @@ ALTER TABLE `links`
 -- AUTO_INCREMENT for table `links_ad`
 --
 ALTER TABLE `links_ad`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `links_share`
+--
+ALTER TABLE `links_share`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `survey_polling`

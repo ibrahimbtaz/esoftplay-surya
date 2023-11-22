@@ -5,6 +5,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 	<div class="line top">
 		<div><?php echo $block->title ?></div>
 	</div>
+	<div class="row">
 	<?php
 	foreach ($cat['list'] as $data) {
 		$edit_data = (content_posted_permission() && $user->id == $data['created_by']) ? 1 : 0;
@@ -93,9 +94,10 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 				</div>
 			</div>
 		</article>
-	<?php
+		<?php
 	}
 	?>
+	</div>
 	<script>
 		_Bbc(function() {
 			if (<?php echo empty($config['title_link']) ?>) {

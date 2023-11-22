@@ -11,7 +11,7 @@ if ($Bbc->mod['name'] == 'content' && $Bbc->mod['task'] == 'search') {
 }
 
 ?>
-<form method="post" class="search" id="block_search<?php echo $block->id ?>" action="" role="form">
+<form method="post" class="search search_top" id="block_search<?php echo $block->id ?>" action="" role="form">
 	<div class="form-group">
 		<div class="input-group">
 			<input type="text" class="form-control input-sm  form-control-sm" name="keyword" value="<?php echo $value; ?>" placeholder="<?php echo $placeholder; ?>" />
@@ -45,3 +45,6 @@ if ($Bbc->mod['name'] == 'content' && $Bbc->mod['task'] == 'search') {
 		})
 	});
 </script>
+<?php
+$block->title = '';
+?>

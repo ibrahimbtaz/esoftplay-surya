@@ -18,3 +18,5 @@ if (empty($user->id > 0)) {
 	</ul>
 <?php
 }
+$block->title = '';
+?>

@@ -19,7 +19,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 			<div class="tab-pane active" id="recomended">
 				<?php foreach ($cat['list'] as $key => $data) {
 					if ($key === 0 && isset($data['id'])) {
-						?>
+				?>
 						<article class="article-fw">
 							<div class="inner">
 								<?php
@@ -66,7 +66,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 									if (!empty($config['rating']) || !empty($config['modified']) || !empty($config['author']) || !empty($edit_data)) {
 										if (!empty($edit_data)) {
 									?>
-											<div class="col-md-7 text-right">
+											<div class="">
 												<?php echo ($config['modified']) ? '<span class="text-muted">' . lang('modified') . content_date($data['modified']) . '</span>' : ''; ?>
 												<a href="<?php echo $Bbc->mod['circuit'] . '.posted_form&id=' . $data['id']; ?>" title="<?php echo lang('edit content'); ?>"><?php echo icon('edit'); ?></a>
 											</div>
@@ -88,7 +88,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 						</article>
 						<div class="line"></div>
 					<?php
-					
+
 					} else {
 					?>
 						<article class="article-mini">
@@ -137,7 +137,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 									if (!empty($config['rating']) || !empty($config['modified']) || !empty($config['author']) || !empty($edit_data)) {
 										if (!empty($edit_data)) {
 									?>
-											<div class="col-md-7 text-right">
+											<div class="">
 												<?php echo ($config['modified']) ? '<span class="text-muted">' . lang('modified') . content_date($data['modified']) . '</span>' : ''; ?>
 												<a href="<?php echo $Bbc->mod['circuit'] . '.posted_form&id=' . $data['id']; ?>" title="<?php echo lang('edit content'); ?>"><?php echo icon('edit'); ?></a>
 											</div>
@@ -181,8 +181,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 					</div> -->
 					<?php
 					foreach ($cat['list'] as $key => $data) {
-						# code...
-						if ($key === 0 && isset($data['id'])){
+						if ($key === 0 && isset($data['id'])) {
 							$cfg = array(
 								'table'    => 'bbc_content_comment',
 								'field'    => 'content',

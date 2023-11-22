@@ -21,7 +21,7 @@
 					<div class="col-md-3 col-sm-12">
 						<?php echo $sys->block_show('logo'); ?>
 					</div>
-					<div class="col-md-6 col-sm-12">
+					<div class="col-md-6 col-sm-12" style="display: flex; flex-direction: column; flex-wrap: nowrap;">
 						<?php echo $sys->block_show('intro'); ?>
 					</div>
 					<div class="col-md-3 col-sm-12">
@@ -51,7 +51,7 @@
 	</section>
 
 	<section class="best-of-the-week">
-		<div class="container">
+		<div class="container" style="display: flex; flex-direction: column; flex-wrap: nowrap;">
 			<?php echo $sys->block_show('bottom') ?>
 		</div>
 	</section>
@@ -68,7 +68,7 @@
 					</div>
 				</div>
 			</div>
-	</footer>			
+	</footer>
 	</div>
 
 	<script src="<?php echo _URL; ?>templates/admin/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

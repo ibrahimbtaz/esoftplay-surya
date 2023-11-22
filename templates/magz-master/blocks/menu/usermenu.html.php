@@ -53,3 +53,5 @@ $y = @$r[0] == 'top' ? 'top' : '';
 $x = @$r[1] == 'left' ? 'left' : '';
 
 echo _horizontal_login($menus, $y, $x);
+$block->title = '';
+?>

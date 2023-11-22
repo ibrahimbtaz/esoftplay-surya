@@ -13,3 +13,6 @@
 		}
 	?> 
 </div>
+<?php 
+$block->title = '';
+?>

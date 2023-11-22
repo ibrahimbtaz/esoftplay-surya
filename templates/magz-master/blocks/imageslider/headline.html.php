@@ -37,3 +37,6 @@
 	}
 	?>
 </div>
+<?php
+$block->title = '';
+?>

@@ -56,7 +56,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 							if (!empty($config['rating']) || !empty($config['modified']) || !empty($config['author']) || !empty($edit_data)) {
 								if (!empty($edit_data)) {
 							?>
-									<div class="col-md-7 text-right">
+									<div class="">
 										<?php echo ($config['modified']) ? '<span class="text-muted">' . lang('modified') . content_date($data['modified']) . '</span>' : ''; ?>
 										<a href="<?php echo $Bbc->mod['circuit'] . '.posted_form&id=' . $data['id']; ?>" title="<?php echo lang('edit content'); ?>"><?php echo icon('edit'); ?></a>
 									</div>

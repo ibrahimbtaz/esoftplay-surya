@@ -69,3 +69,6 @@ $x = @$r[1] == 'left' ? 'left' : '';
 	echo _horizontal_top($menus, $y, $x);
 	?>
 </div>
+<?php
+$block->title = '';
+?>

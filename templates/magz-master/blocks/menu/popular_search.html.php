@@ -55,4 +55,29 @@ $x = @$r[1] == 'left' ? 'left' : '';
 		?>
 	</div>
 </div>
+<script>
+	_Bbc(function($) {
+		function periksaPosisi() {
+			var divAtas = $(".search_top");
+			var divBawah = $(".search_popular");
+
+			if (divBawah.index() < divAtas.index()) {
+				divBawah.css({"margin-top": "20px", "margin-bottom": "0"});
+			} else {
+				divBawah.css("margin-top", "0px"); // Atur kembali margin-top jika div bawah di bawah div atas
+			}
+			if (divAtas.index() < divBawah.index()) {
+				divAtas.css({"margin-top": "20px", "margin-bottom": "0"});
+			} else {
+				divAtas.css("margin-top", "0px"); // Atur kembali margin-top jika div bawah di bawah div atas
+			}
+		}
+		periksaPosisi();
+
+		// Panggil fungsi periksaPosisi setiap 1 detik (1000ms)
+		// setInterval(periksaPosisi, 1);
+	});
+</script>
 <?php
+$block->title = '';
+?>

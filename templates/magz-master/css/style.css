@@ -31,34 +31,6 @@
 @import url('skins/purple.css');
 @import url('skins/purple.css.map');
 
-/* .featured .details .category a {
-	font-size: 12px;
-	font-weight: 400;
-	padding: 5px 15px;
-	display: inline-block;
-	border-radius: 30px;
-	background-color: transparent;
-	color: #fff;	
-	text-decoration: none;
-	transition: all .3s;
-	-moz-transition: all .3s;
-	-webkit-transition: all .3s;
-	-o-transition: all .3s;
-} */
-
-/* .text-light {
-	color: #fff !important;
-} */
-
-/* .item .featured {
-	display: inline-block;
-	width: 100%;
-	position: relative;
-	height: 470px;
-	margin-bottom: 20px;
-	overflow: hidden;
-} */
-
 .featured .details {
 	padding: 20px 30px;
 	position: absolute;
@@ -70,15 +42,6 @@
 	align-items: stretch;
 	justify-content: space-around;
 	align-content: space-between;
-}
-
-.search_popular {
-	margin-top: 0 !important;
-}
-
-.search_popular .help-block {
-	margin-top: 0 !important;
-	margin-bottom: 5px !important;
 }
 
 .menu ul>li .dropdown-menu>li>a {
