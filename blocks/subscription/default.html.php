@@ -9,12 +9,12 @@
 				<h1><?php echo lang($block->title) ?></h1>
 			</div>
 			<div class="input-group">
-				<input type="email" class="form-control email" placeholder="<?php echo lang($config['caption'])?>">
+				<input type="email" class="form-control email" placeholder="<?php echo lang($config['caption']) ?>">
 				<div class="input-group-btn">
 					<button class="btn btn-primary"><i class="ion-paper-airplane"></i></button>
 				</div>
 			</div>
-			<p><?php echo lang($config['info']), pr($config);?></p>
+			<p><?php echo lang($config['info']) ?></p>
 		</form>
 	</div>
 </aside>

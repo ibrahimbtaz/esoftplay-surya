@@ -18,7 +18,8 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 		<div class="tab-content">
 			<div class="tab-pane active" id="recomended">
 				<?php foreach ($cat['list'] as $key => $data) {
-					if ($key === 0) { ?>
+					if ($key === 0 && isset($data['id'])) {
+						?>
 						<article class="article-fw">
 							<div class="inner">
 								<?php
@@ -87,6 +88,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 						</article>
 						<div class="line"></div>
 					<?php
+					
 					} else {
 					?>
 						<article class="article-mini">
@@ -178,21 +180,25 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 						</div>
 					</div> -->
 					<?php
-					$cfg = array(
-						'table'    => 'bbc_content_comment',
-						'field'    => 'content',
-						'id'       => $data['1'],
-						'type'     => $config['comment'],
-						'list'     => $config['comment_list'],
-						'link'     => content_link($data['id'], $data['title']),
-						'form'     => $config['comment_form'],
-						'emoticon' => $config['comment_emoticons'],
-						'captcha'  => $config['comment_spam'],
-						'approve'  => $config['comment_auto'],
-						'alert'    => $config['comment_email'],
-						'admin'    => $edit_data ? 1 : 0
-					);
-					echo _class('comment', $cfg)->show();
+					foreach ($cat['list'] as $key => $data) {
+						# code...
+						if ($key === 0 && isset($data['id'])){
+							$cfg = array(
+								'table'    => 'bbc_content_comment',
+								'field'    => 'content',
+								'id'       => $data['id'],
+								'type'       => 1,	// [1=Normal Form, 0=No Comment, 2=Facebook Comment]
+								'list'       => 5,	// number of comment per page
+								'form'       => 0,	// show/hide comment form
+								'emoticon'   => 1,	// show/hide emoticon if form enable
+								'captcha'    => 1,	// show/hide captcha in form comment
+								'approve'    => 0,	// disable/enable auto publish if approve=0 admin must approve every comment manually
+								'alert'      => 1,	// disable/
+								'admin'    => $edit_data ? 1 : 0
+							);
+							echo _class('comment', $cfg)->show();
+						}
+					}
 					?>
 				</div>
 			</div>

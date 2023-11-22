@@ -80,7 +80,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 				<?php
 				}
 				?>
-				<a href="#" class="btn btn-magz white btn-block">See All <i class="ion-ios-arrow-thin-right"></i></a>
+				<a href="<?php echo site_url('content/latest')?>" class="btn btn-magz white btn-block"><?php echo lang('See All') ?> <i class="ion-ios-arrow-thin-right"></i></a>
 			</div>
 		</div>
 		<div class="line"></div>

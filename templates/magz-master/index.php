@@ -4,17 +4,17 @@
 
 <head>
 	<?php echo $sys->meta(); ?>
-	<!--[if lt IE 9]>
+	<!-- [if lt IE 9]>
 				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js', false);
 				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js', false);
-			<![endif]-->
+			<![endif] -->
 </head>
 
 <body>
 	<?php
 	$is_admin = _ADMIN != '' ? 'div' : 'header';
 	?>
-	<!-- <<?php echo $is_admin ?> class="primary">
+	<<?php echo $is_admin ?> class="primary">
 		<div class="firstbar">
 			<div class="container">
 				<div class="row">
@@ -33,7 +33,7 @@
 		<nav class="menu">
 			<?php echo $sys->block_show('top') ?>
 		</nav>
-	</<?php echo $is_admin ?>> -->
+	</<?php echo $is_admin ?>>
 	<section class="home">
 		<div class="container">
 			<div class="row">
@@ -61,15 +61,15 @@
 			<div class="row">
 				<?php echo $sys->block_show('footer') ?>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="copyright">
-					<?php echo config('site', 'footer'); ?>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="copyright">
+						<?php echo config('site', 'footer'); ?>
+					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
+	</footer>			
+	</div>
 
 	<script src="<?php echo _URL; ?>templates/admin/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 	<?php
@@ -92,7 +92,6 @@
 	$sys->link_js($sys->template_url . 'js/e-magz.js', false);
 	// echo $sys->block_show('debug');
 	?>
-
 
 </body>
 

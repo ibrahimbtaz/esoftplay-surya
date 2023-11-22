@@ -3,7 +3,7 @@
 if (!empty($cat['list']) && is_array($cat['list'])) {
 ?>
 	<aside>
-		<h1 class="aside-title"><?php echo $block->title ?> <a href="#" class="all"><?php echo lang('See All') ?> <i class="ion-ios-arrow-right"></i></a></h1>
+		<h1 class="aside-title"><?php echo $block->title ?> <a href="<?php echo site_url('content/popular') ?>" class="all"><?php echo lang('See All') ?> <i class="ion-ios-arrow-right"></i></a></h1>
 		<div class="aside-body">
 			<?php
 			foreach ($cat['list'] as $data) {
@@ -71,7 +71,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 								if (!empty($config['rating'])) {
 									echo rating($data['rating']);
 								}
-							} 
+							}
 							?>
 						</div>
 					</div>

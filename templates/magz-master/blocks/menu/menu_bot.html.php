@@ -17,7 +17,7 @@ function _horizontal_bot($menus, $y = '', $x = '', $level = -1) // $y = 'down' |
 				$sub = call_user_func(__FUNCTION__, $menu['child'], $y, $x, ++$level);
 				if (!empty($sub)) {
 					$act 	= in_array($menu['id'], $highlight) ? ' active' : '';
-					$out .= '<li class=""><a role="button" data-toggle="dropdown" tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . ' <i class="ion-ios-arrow-right"></i></a>' . $sub . '</li>';
+					$out .= '<li><a role="button" data-toggle="dropdown" tabindex="-1" href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . ' <i class="ion-ios-arrow-right"></i></a>' . $sub . '</li>';
 				} else {
 					$act 	= in_array($menu['id'], $highlight) ? ' class="active"' : '';
 					$out .= '<li' . $act . '><a href="' . $menu['link'] . '" title="' . $menu['title'] . '">' . $menu['title'] . '</a></li>';
