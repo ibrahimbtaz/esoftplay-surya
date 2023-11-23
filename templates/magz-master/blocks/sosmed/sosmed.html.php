@@ -1,5 +1,4 @@
 <?php if (!defined('_VALID_BBC')) exit('No direct script access allowed');
-
 ?>
 <div class="col-md-3 col-xs-12 col-sm-6">
 	<div class="block">
@@ -26,7 +25,7 @@
 							break;
 					}
 					if (!empty($value)) {
-				?>
+						?>
 						<li>
 							<a href="<?php echo $value ?>" class="<?php echo $originalkey ?>">
 								<svg>
@@ -35,7 +34,7 @@
 								<i class="ion-social-<?php echo $key ?>"></i>
 							</a>
 						</li>
-				<?php
+						<?php
 					}
 				}
 				?>

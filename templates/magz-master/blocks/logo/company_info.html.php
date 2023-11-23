@@ -6,13 +6,13 @@
 		<div class="block-body">
 			<?php
 			if (!empty($config['is_link'])) {
-			?>
+				?>
 				<figure class="foot-logo">
 					<a href="<?php echo _URL; ?>" title="<?php echo $output['title']; ?>" <?php echo $output['attribute']; ?>>
 						<?php echo image($output['image'], $output['size'], 'alt="' . $output['title'] . '" title="' . $output['title'] . '"'); ?>
 					</a>
 				</figure>
-			<?php
+				<?php
 			}
 			?>
 			<p class="brand-description">
@@ -20,9 +20,9 @@
 			</p>
 			<?php
 			if (!empty($config['is_link'])) {
-			?>
+				?>
 				<a href="<?php echo $output['link']; ?>" title="<?php echo $output['title']; ?>" <?php echo $output['attribute']; ?> class="btn btn-magz white"><?php echo lang('About Us') ?> <i class="ion-ios-arrow-thin-right"></i></a>
-			<?php
+				<?php
 			}
 			?>
 		</div>

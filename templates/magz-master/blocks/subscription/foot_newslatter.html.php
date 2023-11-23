@@ -1,5 +1,4 @@
 <?php if (!defined('_VALID_BBC')) exit('No direct script access allowed');
-
 ?> 
 <div class="col-md-3 col-sm-6 col-xs-12">
 	<div class="block">

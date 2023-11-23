@@ -7,11 +7,11 @@
 					<?php
 					foreach ((array)$tags as $data) {
 						$link = content_tag_link($data['id'], $data['title']);
-					?>
+						?>
 						<li>
 							<a href="<?php echo content_tag_link($data['id'], $data['title']); ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a>
 						</li>
-					<?php
+						<?php
 					}
 					?>
 				</ul>
