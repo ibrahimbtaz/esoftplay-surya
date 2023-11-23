@@ -16,7 +16,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 		// Mengembalikan hanya nilai angka
 		return $grade;
 	}
-?>
+	?>
 	<aside>
 		<div class="aside-body">
 			<div class="featured-author">
@@ -29,7 +29,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 					}
 					foreach ($contentsByAuthor as $author => $contents) {
 						$data = reset($contents);
-					?>
+						?>
 						<div class="featured-author-cover" style="background-color: grey;" alt="Sample Article">
 							<div class="badges">
 								<div class="badge-item"><i class="ion-star"></i> <?php lang('Featured') ?></div>
@@ -92,12 +92,10 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 								</div>
 							</div>
 							<div class="featured-author-footer">
-								<a href="#">See All Authors</a>
+								<a href="#"><?php echo lang('See All Authors') ?></a>
 							</div>
 						</div>
 					<?php
-
-
 					}
 					?>
 				</div>

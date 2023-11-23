@@ -30,7 +30,7 @@ function _rating_love($value, $table = '', $table_id = '', $string_voter = 'vote
 			'voter' => $string_voter,
 			'db'    => $string_db,
 		);
-?>
+	?>
 		<input type="number" name="rating" class="rating" value="<?php echo $grade; ?>" data-id="<?php echo $table_id; ?>" data-token="<?php echo encode(json_encode($token)); ?>" data-append="&nbsp;<?php echo items($total_voters, $string_voter); ?>" style="display: none;" />
 	<?php
 		link_js('templates/admin/bootstrap/js/rating.js', false);
@@ -54,7 +54,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 			foreach ($chunk as $data) {
 				$edit_data = (content_posted_permission() && $user->id == $data['created_by']) ? 1 : 0;
 				$link = content_link($data['id'], $data['title']);
-			?>
+				?>
 				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="row">
 						<article class="article col-md-12">
@@ -82,13 +82,13 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 									<?php
 									if (!empty($config['title'])) {
 										if (!empty($config['title_link'])) {
-									?>
+										?>
 											<h2><a href="<?php echo $link; ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></h2>
 										<?php
 										} else {
 										?>
 											<h2><?php echo $data['title']; ?></h2>
-									<?php
+										<?php
 										}
 									}
 									?>
@@ -102,18 +102,18 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 									}
 									if (!empty($config['modified']) || !empty($config['author']) || !empty($edit_data)) {
 										if (!empty($edit_data)) {
-									?>
+											?>
 											<div class="">
 												<?php echo ($config['modified']) ? '<span class="text-muted">' . lang('modified') . content_date($data['modified']) . '</span>' : ''; ?>
 												<a href="<?php echo $Bbc->mod['circuit'] . '.posted_form&id=' . $data['id']; ?>" title="<?php echo lang('edit content'); ?>"><?php echo icon('edit'); ?></a>
 											</div>
-										<?php
+											<?php
 										} else {
 											echo ($config['modified']) ? '<div class="time"><span class="text-muted">' . lang('modified') . content_date($data['modified']) . '</span></div>' : '';
 											echo ($config['author']) ? '<div class="time"><span class="text-muted">' . lang('author') . $data['created_by_alias'] . '</span></div>' : '';
-										?>
+											?>
 											<div class="clearfix"></div>
-										<?php
+											<?php
 										}
 									}
 									if (!empty($config['rating']) || !empty($config['title_link'])) {

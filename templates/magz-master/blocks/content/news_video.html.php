@@ -1,8 +1,6 @@
 <?php if (!defined('_VALID_BBC')) exit('No direct script access allowed');
 
 if (!empty($cat['list']) && is_array($cat['list'])) {
-
-
 ?>
 	<aside>
 		<h1 class="aside-title"><?php echo $block->title ?>
@@ -19,7 +17,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 					$link = content_link($data['id'], $data['title']);
 					if (!empty($data['video'])) {
 						include_once _ROOT . 'modules/content/constants.php';
-				?>
+						?>
 						<div class="form-group">
 							<center>
 								<?php echo str_replace('{code}', $data['video'], _VIDEO_EMBED); ?>
@@ -32,7 +30,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 							}
 							?>
 						</div>
-					<?php
+						<?php
 					}
 				}
 				?>
@@ -41,6 +39,5 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 	</aside>
 <?php
 }
-
 $block->title = '';
 ?>
