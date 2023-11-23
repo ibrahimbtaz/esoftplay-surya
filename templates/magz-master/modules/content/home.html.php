@@ -44,7 +44,7 @@ function _category_style($ids, $is_link = true)
 <div class="item">
 	<?php
 	foreach ((array)$arr as $data) {
-	?>
+		?>
 		<article class="featured">
 			<div class="overlay"></div>
 			<figure>
@@ -69,17 +69,17 @@ function _category_style($ids, $is_link = true)
 				<?php
 				$tr = (($config['created'] && $config['author']) || ($config['rating'] && $config['modified'])) ? ' text-right' : '';
 				if ($config['created'] || $config['author']) {
-				?>
+					?>
 					<div class="row">
 						<?php
 						echo ($config['author']) ? '<div class="col-md-6 time"><span>' . lang('author') . $data['created_by_alias'] . '</span></div>' : '';
 						echo ($config['created']) ? '<div class="col-md-6 time ' . $tr . '"><span>' . lang('created') . content_date($data['created']) . '</span></div>' : '';
 						?>
 					</div>
-				<?php
+					<?php
 				}
 				if ($config['rating'] || $config['modified']) {
-				?>
+					?>
 					<div class="row">
 						<?php
 						echo ($config['rating']) ? '<div class="col-md-6 time">' . rating($data['rating']) . '</div>' : '';
@@ -88,7 +88,7 @@ function _category_style($ids, $is_link = true)
 						?>
 						<div class="clearfix"></div>
 					</div>
-				<?php
+					<?php
 				}
 				?>
 			</div>

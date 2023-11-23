@@ -26,7 +26,7 @@ link_js('includes/lib/pea/includes/formIsRequire.js', false);
 		<span class="text-muted"><?php echo lang("Don't have an account?") ?></span> <a href="register.html"><?php echo lang('Create one') ?></a>
 	</div>
 	<div class="title-line">
-		or
+		<?php lang('or') ?>
 	</div>
 	<a href="#" class="btn btn-social btn-block facebook"><i class="ion-social-facebook"></i><?php echo lang('Login with Facebook') ?></a>
 </form>
