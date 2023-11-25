@@ -1,21 +1,6 @@
 <?php if (!defined('_VALID_BBC')) exit('No direct script access allowed');
 if (!empty($cat['list']) && is_array($cat['list'])) {
-	function _rating_grade($value, $table = '', $table_id = '', $string_voter = 'voter', $string_db = '')
-	{
-		$total_voters = $grade = 0;
-		if (!empty($value)) {
-			$r = explode(',', $value);
-			$total_voters = array_sum($r);
-			foreach ($r as $i => $voters) {
-				$grade += $voters * ($i + 1);
-			}
-			$grade = ($grade > 0) ? round($grade / $total_voters, 1) : 0;
-			$grade = floor($grade * 2) / 2;
-		}
-
-		// Mengembalikan hanya nilai angka
-		return $grade;
-	}
+	_func('magazine');
 	?>
 	<aside>
 		<div class="aside-body">
@@ -36,8 +21,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 							</div>
 							<div class="featured-author-center">
 								<figure class="featured-author-picture">
-									<img src="<?php echo _URL;
-														echo 'images/modules/content/images/' . $data['image'] ?>" alt="Sample Article"><!-- mendapatkan photo author -->
+									<img src="<?php echo content_src($data['image'], false, false) ?>" alt="Sample Article">
 								</figure>
 								<div class="featured-author-info">
 									<h2 class="name" style="color:black;"><?php echo $data['created_by_alias']  ?></h2>
@@ -56,7 +40,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 								<div class="item">
 									<a href="#">
 										<div class="name"><?php echo lang('Stars') ?></div>
-										<div class="value"><?php echo _rating_grade($data['rating']) ?></div>
+										<div class="value"><?php echo magazine_rating_grade($data['rating']) ?></div>
 									</a>
 								</div>
 								<div class="item">
@@ -78,14 +62,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 										<?php
 										foreach ($contents as $key => $data) {
 											$link = content_link($data['id'], $data['title']); ?>
-											<li><a href="<?php echo _URL;
-																		echo 'images/modules/content/images/' . $data['image'] ?>" style="background-image: url('<?php echo _URL;
-																																																															echo 'images/modules/content/images/' . $data['image'] ?>');"></a></li>
-											<!-- <li><a href="images/news/img12.jpg" style="background-image: url('images/news/img12.jpg');">
-														<div class="more">+2</div>
-													</a></li>
-												<li class="hidden"><a href="images/news/img13.jpg" style="background-image: url('images/news/img13.jpg');"></a></li>
-												<li class="hidden"><a href="images/news/img14.jpg" style="background-image: url('images/news/img14.jpg');"></a></li> -->
+											<li><a href="<?php echo content_src($data['image'], false, false) ?>" style="background-image: url('<?php echo content_src($data['image'], false, false)?>');"></a></li>
 										<?php
 										} ?>
 									</ul>

@@ -4,10 +4,6 @@
 
 <head>
 	<?php echo $sys->meta(); ?>
-	<!-- [if lt IE 9]>
-				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js', false);
-				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js', false);
-			<![endif] -->
 </head>
 
 <body>
@@ -40,6 +36,8 @@
 				<div class="col-md-8 col-sm-12 col-xs-12">
 					<?php echo $sys->block_show('content_top'); ?>
 					<?php echo trim($Bbc->content); ?>
+					<?php echo $sys->block_show('content'); ?>
+					<?php echo $sys->block_show('left'); ?>
 					<?php echo $sys->block_show('content_bottom'); ?>
 				</div>
 				<div class="col-xs-6 col-md-4 sidebar" id="sidebar">
@@ -59,7 +57,18 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<?php echo $sys->block_show('footer') ?>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<?php echo $sys->block_show('footer_col_satu') ?>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<?php echo $sys->block_show('footer_col_dua') ?>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<?php echo $sys->block_show('footer_col_tiga') ?>
+				</div>
+				<div class="col-md-3 col-xs-12 col-sm-6">
+					<?php echo $sys->block_show('footer_col_empat') ?>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
@@ -68,8 +77,8 @@
 					</div>
 				</div>
 			</div>
+		</div>
 	</footer>
-	</div>
 
 	<script src="<?php echo _URL; ?>templates/admin/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 	<?php
@@ -91,6 +100,7 @@
 	// $sys->link_js($sys->template_url . 'js/demo.js', false); //karena kalo diaktifin, jadi error yang searchnya
 	$sys->link_js($sys->template_url . 'js/e-magz.js', false);
 	// echo $sys->block_show('debug');
+	$sys->link_js($sys->template_url . 'js/main.js', false);
 	?>
 
 </body>
