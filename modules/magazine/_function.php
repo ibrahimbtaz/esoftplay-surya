@@ -28,10 +28,10 @@ function magazine_rating($value, $table = '', $table_id = '', $string_voter = 'v
 			'table' => $table,
 			'voter' => $string_voter,
 			'db'    => $string_db,
-		);
-?>
+		); 
+		?>
 		<input type="number" name="rating" class="rating" value="<?php echo $grade; ?>" data-id="<?php echo $table_id; ?>" data-token="<?php echo encode(json_encode($token)); ?>" data-append="&nbsp;<?php echo items($total_voters, $string_voter); ?>" style="display: none;" />
-<?php
+		<?php
 		link_js('templates/admin/bootstrap/js/rating.js', false);
 	}
 	$output = ob_get_contents();

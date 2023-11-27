@@ -2,5 +2,6 @@
 
 // Menampilkan Subcription
 $output = array();
+	include _ROOT.'modules/magazine/mailchimp.php';
 
 include tpl(@$config['template'].'.html.php', 'default.html.php');
