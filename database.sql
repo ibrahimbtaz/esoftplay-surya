@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 28, 2023 at 05:20 PM
+-- Generation Time: Nov 30, 2023 at 01:31 PM
 -- Server version: 5.7.42-log
 -- PHP Version: 7.4.33
 
@@ -280,8 +280,8 @@ INSERT INTO `bbc_block` (`id`, `template_id`, `block_ref_id`, `position_id`, `sh
 (166, 8, 6, 10, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"search_top\",\"caption\":\"Type+something+here\"}', 1, 1),
 (169, 8, 10, 10, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"popular_search\",\"cat_id\":\"7\",\"submenu\":\"bottom+right\"}', 2, 1),
 (172, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_popular\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 2, 1),
-(187, 8, 3, 1, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_hot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 2, 1),
-(190, 8, 16, 1, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"trending_tags\",\"tag_type\":\"1\",\"duration\":\"30\",\"tag_ids\":\"\",\"limit\":\"5\"}', 1, 1),
+(187, 8, 3, 1, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_hot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
+(190, 8, 16, 12, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"trending_tags\",\"tag_type\":\"1\",\"duration\":\"30\",\"tag_ids\":\"\",\"limit\":\"5\"}', 2, 1),
 (180, 8, 10, 5, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"loginmenu\",\"cat_id\":\"4\",\"submenu\":\"bottom+right\"}', 1, 1),
 (182, 8, 3, 4, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_slider\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
 (201, 8, 9, 13, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"company_info\",\"image\":\"images%2Fuploads%2Flogo-light.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"about-us.html\",\"title\":\"Magz+is+a+HTML5+%26amp%3B+CSS3+magazine+template+based+on+Bootstrap+3.\",\"attribute\":\"\"}', 1, 1),
@@ -292,12 +292,12 @@ INSERT INTO `bbc_block` (`id`, `template_id`, `block_ref_id`, `position_id`, `sh
 (209, 8, 10, 16, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"menu_bot\",\"cat_id\":\"2\",\"submenu\":\"bottom+right\"}', 2, 1),
 (215, 8, 7, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"sponsored_ads\",\"show\":\"1\",\"limit\":\"4\"}', 6, 1),
 (177, 8, 3, 9, 1, '', 0, 39, ',all,', ',all,', '', '', '', '{\"template\":\"news_list\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
-(178, 8, 3, 12, 1, '', 0, 39, ',all,', ',all,', '', '', '', '{\"template\":\"news_grid\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"6\",\"thumbnail\":\"1\"}', 1, 1),
-(197, 8, 18, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"default\",\"caption\":\"Your+mail\",\"info\":\"By+subscribing+you+will+receive+new+articles+in+your+email.\",\"list_id\":\"395406e297\",\"api\":\"339d53b227acbcf34f2118db343aa245-us21\"}', 3, 1),
+(178, 8, 3, 12, 1, '', 0, 39, ',all,', ',all,', '', '', '', '{\"template\":\"news_grid\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"0\",\"title_link\":\"0\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"6\",\"thumbnail\":\"1\"}', 1, 1),
+(197, 8, 18, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"default\",\"caption\":\"Your+mail\",\"info\":\"By+subscribing+you+will+receive+new+articles+in+your+email.\",\"list_id\":\"395406e297\",\"api\":\"5c448858e3b60e58d1737e9329cb2315-us21\",\"url\":\"https%3A%2F%2Fgmail.us21.list-manage.com%2Fsubscribe%2Fpost-json%3Fu%3Dd22a9c3d9bbb34ea118f4f41f%26amp%3Bid%3D395406e297%26amp%3Bf_id%3D00c0f0e6f0%26c%3D\"}', 3, 1),
 (193, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_recomended\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 4, 1),
 (194, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"right_profile\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"1\",\"author\":\"1\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
 (191, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_video\",\"kind_id\":\"3\",\"type_id\":\"1\",\"cat_id\":\"4\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"0\"}', 5, 1),
-(186, 8, 9, 12, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"banner_iklan\",\"image\":\"images%2Fuploads%2Fads.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"\",\"attribute\":\"\"}', 2, 1),
+(186, 8, 9, 12, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"banner_iklan\",\"image\":\"images%2Fuploads%2Fads.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"\",\"attribute\":\"\"}', 3, 1),
 (150, 8, 9, 7, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"logo\",\"image\":\"images%2Fuploads%2Flogo.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"Magz+Logo\",\"attribute\":\"\"}', 1, 1),
 (168, 8, 14, 8, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"headline\",\"cat_id\":\"1\",\"caption\":\"1\",\"indicator\":\"1\",\"control\":\"1\"}', 1, 1);
 
@@ -332,7 +332,8 @@ INSERT INTO `bbc_block_position` (`id`, `name`) VALUES
 (13, 'footer_col_satu'),
 (14, 'footer_col_dua'),
 (15, 'footer_col_tiga'),
-(16, 'footer_col_empat');
+(16, 'footer_col_empat'),
+(17, 'coba_block');
 
 -- --------------------------------------------------------
 
@@ -706,11 +707,11 @@ INSERT INTO `bbc_content` (`id`, `par_id`, `type_id`, `kind_id`, `file`, `file_u
 (31, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'konektivitas-nusantara.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 18, ',all,', 40, '0', '2011-04-25 13:09:53', 1, 0, 0, '', 1),
 (32, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'membumikan-transportasi-ke-ranah-lokal.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 117, '0', '2016-04-16 04:03:32', 0, 0, 0, '', 0),
 (33, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'nikmat-teh-di-pasar-terapung.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 318, '0', '2023-11-23 23:37:34', 1, 0, 0, '', 1),
-(34, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'tol-semakin-dikebut.jpeg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-23 22:44:11', 1, 15, ',all,', 398, '0,0,0,1,0', '2023-11-27 12:28:36', 1, 0, 0, '', 1),
-(35, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'dermaga-batubara-terbesar.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 327, '0', '2023-11-23 23:26:20', 0, 0, 0, '', 1),
-(36, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'belawan-terus-berbenah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 414, '0', '2023-11-21 14:10:36', 1, 0, 0, '', 1),
-(37, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'pasar-perintis-kian-seksi.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-23 22:43:20', 1, 23, ',all,', 222, '0,0,0,0,1', '2023-11-28 16:05:57', 1, 0, 0, '', 1),
-(38, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'garuda-buka-rute-surabaya-jeddah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-23 22:42:20', 1, 72, ',all,', 211, '0,0,1,1,0', '2023-11-28 12:52:08', 1, 0, 0, '', 1);
+(34, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'tol-semakin-dikebut.jpeg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-23 22:44:11', 1, 15, ',all,', 399, '0,0,0,1,0', '2023-11-29 10:25:47', 1, 0, 0, '', 1),
+(35, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'dermaga-batubara-terbesar.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 329, '0', '2023-11-30 11:00:35', 0, 0, 0, '', 1),
+(36, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'belawan-terus-berbenah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 415, '0', '2023-11-29 10:24:11', 1, 0, 0, '', 1),
+(37, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'pasar-perintis-kian-seksi.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-23 22:43:20', 1, 23, ',all,', 223, '0,0,0,0,1', '2023-11-29 10:23:44', 1, 0, 0, '', 1),
+(38, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'garuda-buka-rute-surabaya-jeddah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-30 12:46:53', 1, 75, ',all,', 213, '0,0,1,1,0', '2023-11-30 09:52:12', 1, 0, 0, '', 1);
 
 -- --------------------------------------------------------
 
@@ -1133,7 +1134,8 @@ CREATE TABLE `bbc_content_tag` (
 INSERT INTO `bbc_content_tag` (`id`, `title`, `total`, `created`, `updated`) VALUES
 (3, 'Halo', 1, '2023-11-21 15:31:42', '0000-00-00 00:00:00'),
 (2, 'Anime', 1, '2023-11-16 16:28:29', '0000-00-00 00:00:00'),
-(4, 'Surya', 1, '2023-11-21 15:31:42', '0000-00-00 00:00:00');
+(4, 'Surya', 1, '2023-11-21 15:31:42', '0000-00-00 00:00:00'),
+(5, 'ifefr', 1, '2023-11-30 11:53:13', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -1153,7 +1155,8 @@ CREATE TABLE `bbc_content_tag_list` (
 INSERT INTO `bbc_content_tag_list` (`tag_id`, `content_id`) VALUES
 (2, 38),
 (3, 37),
-(4, 37);
+(4, 37),
+(5, 38);
 
 -- --------------------------------------------------------
 
@@ -2191,7 +2194,7 @@ CREATE TABLE `bbc_user` (
 --
 
 INSERT INTO `bbc_user` (`id`, `group_ids`, `username`, `password`, `last_ip`, `last_ip_temp`, `last_login`, `last_login_temp`, `exp_checked`, `login_time`, `created`, `active`) VALUES
-(1, ',3,4,1,2,', 'admin', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '::1', '2023-11-28 12:03:08', '2023-11-27 17:36:01', '2023-11-28 19:20:31', 150, '0000-00-00 00:00:00', 1),
+(1, ',3,4,1,2,', 'admin', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '::1', '2023-11-30 11:16:49', '2023-11-30 09:51:28', '2023-11-30 15:31:01', 155, '0000-00-00 00:00:00', 1),
 (2, ',2,1,3,4,', 'danang@fisip.net', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '127.0.0.1', '2023-10-17 10:40:30', '2016-05-03 23:35:44', '0000-00-00 00:00:00', 1, '0000-00-00 00:00:00', 1);
 
 -- --------------------------------------------------------
@@ -3434,7 +3437,7 @@ ALTER TABLE `bbc_block`
 -- AUTO_INCREMENT for table `bbc_block_position`
 --
 ALTER TABLE `bbc_block_position`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `bbc_block_ref`
@@ -3506,7 +3509,7 @@ ALTER TABLE `bbc_content_schedule`
 -- AUTO_INCREMENT for table `bbc_content_tag`
 --
 ALTER TABLE `bbc_content_tag`
-  MODIFY `id` int(255) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(255) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `bbc_content_trash`
