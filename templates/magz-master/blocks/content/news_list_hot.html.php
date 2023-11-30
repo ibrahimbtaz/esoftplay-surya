@@ -2,7 +2,7 @@
 
 if (!empty($cat['list']) && is_array($cat['list'])) {
 ?>
-	<div class="col-md-6 col-sm-6">
+	<div class="col-md-6 col-sm-6 hot_news">
 		<h1 class="title-col">
 			<?php echo $block->title ?>
 			<div class="carousel-nav" id="hot-news-nav">

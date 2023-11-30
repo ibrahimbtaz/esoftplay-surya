@@ -102,6 +102,9 @@
 	// echo $sys->block_show('debug');
 	$sys->link_js($sys->template_url . 'js/main.js', false);
 	?>
+	<script type="text/javascript">
+		
+	</script>
 
 </body>
 

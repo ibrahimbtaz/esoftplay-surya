@@ -36,7 +36,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 											$r = content_category($data['id'], $config['tag_link']);
 											echo (!empty($config['created'])) ? '<div class="time">' . lang('created') . content_date($data['created']) . '</div>' : '';
 											echo (!empty($config['tag'])) ? '<div class="category col-md-auto text-right pull-right" style="' . $m . ' ">' . implode('', $r) . '</div>' : '';
-										?>
+											?>
 											<div class="clearfix"></div>
 										<?php
 										}
@@ -163,23 +163,31 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 			</div>
 			<div class="tab-pane comments" id="comments">
 				<div class="comment-list sm">
-					<?php
-					$cfg = array(
-						'table'    => 'bbc_content_comment',
-						'field'    => 'content',
-						'id'       => $cat['list'][0]['id'],
-						'type'       => 1,	// [1=Normal Form, 0=No Comment, 2=Facebook Comment]
-						'list'       => 5,	// number of comment per page
-						'form'       => 0,	// show/hide comment form
-						'emoticon'   => 1,	// show/hide emoticon if form enable
-						'captcha'    => 1,	// show/hide captcha in form comment
-						'approve'    => 0,	// disable/enable auto publish if approve=0 admin must approve every comment manually
-						'alert'      => 1,	// disable/
-						'admin'    => $edit_data ? 1 : 0
-					);
-					echo _class('comment', $cfg)->show();
-
-					?>
+					<?php 
+						$content_id = $cat['list'][0]['id']; // Assuming content ID is stored in 'id' field
+			      $q = 'SELECT * FROM `bbc_content_comment` WHERE `content_id` = ' . $content_id;  
+			      $r_list = $db->getAll($q);
+			      if (!empty($r_list)) {
+			        foreach ($r_list as $index =>$comment) {
+			        	?> 
+								<div class="item">
+									<div class="user">                                
+										<figure>
+											<img src="<?php echo content_src($comment['image'], $is_imgsrc = false, $is_large_image = false); ?>" alt="User Picture">
+										</figure>
+										<div class="details">
+											<h5 class="name"><?php echo $comment['name'] ?></h5>
+											<div class="time"><?php echo $comment['date'] ?></div>
+											<div class="description">
+												<?php echo  $comment['content'] ?>
+											</div>
+										</div>
+									</div>
+								</div>
+			        	<?php			       
+			        }
+			      }
+					 ?>
 				</div>
 			</div>
 		</div>

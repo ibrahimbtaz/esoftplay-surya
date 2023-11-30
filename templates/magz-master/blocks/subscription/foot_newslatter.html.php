@@ -5,14 +5,14 @@
 	</h1>
 	<div class="block-body">
 		<p><?php echo lang($config['info']) ?></p>
-		<form class="newsletter" action="mailchimp.php">
+		<form class="newsletter" action="" method="POST">
 			<div class="input-group">
 				<div class="input-group-addon">
 					<i class="ion-ios-email-outline"></i>
 				</div>
-				<input type="email" class="form-control email" placeholder="<?php echo lang($config['caption']) ?>">
+				<input type="email" name="email" class="form-control email" placeholder="<?php echo lang($config['caption']) ?>">
 			</div>
-			<button class="btn btn-primary btn-block white"><?php echo lang('Subscribe') ?></button>
+			<button type="submit" name="submit" class="btn btn-primary btn-block white"><?php echo lang('Subscribe') ?></button>
 		</form>
 	</div>
 </div>

@@ -7,12 +7,12 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 			<div class="featured-author">
 				<div class="featured-author-inner">
 					<?php
-					$contentsByAuthor = [];
+					$content_by_alias = [];
 					foreach ($cat['list'] as $row) {
 						$author = $row['created_by_alias'];
-						$contentsByAuthor[$author][] = $row;
+						$content_by_alias[$author][] = $row;
 					}
-					foreach ($contentsByAuthor as $author => $contents) {
+					foreach ($content_by_alias as $author => $contents) {
 						$data = reset($contents);
 						?>
 						<div class="featured-author-cover" style="background-color: grey;" alt="Sample Article">

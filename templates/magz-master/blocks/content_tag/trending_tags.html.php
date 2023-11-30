@@ -1,4 +1,4 @@
-<div class="col-md-6 col-sm-6 trending-tags">
+<div class="col-md-6 col-sm-6 trending_tags">
 	<h1 class="title-col"><?php echo $block->title ?></h1>
 	<div class="body-col">
 		<ol class="tags-list">

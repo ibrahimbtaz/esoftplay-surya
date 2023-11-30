@@ -3,6 +3,7 @@
 $r = explode(' ', $config['submenu']);
 $y = @$r[0] == 'top' ? 'top' : '';
 $x = @$r[1] == 'left' ? 'left' : '';
+_func('magazine');
 ?>
 <div class="container">
 	<div class="brand">

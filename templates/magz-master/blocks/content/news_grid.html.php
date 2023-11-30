@@ -106,7 +106,6 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 		<?php
 		}
 		?>
-
 	</div>
 <?php
 }

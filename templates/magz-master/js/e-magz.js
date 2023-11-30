@@ -118,6 +118,7 @@ $(function(){
 	// newsletter
 	var newsletter = function() {
 		$(".newsletter").submit(function(){
+	    e.preventDefault();
 			var $this = $(this),
 			newsletter = {
 				start: function() {
@@ -171,22 +172,34 @@ $(function(){
 				 * Add your ajax code
 				 * ------------------
 				 * For example:
-				 * $.ajax({
-				 * 		url: "subscribe_url",
-				 * 		type: "post",
-				 *  	data: $this.serialize(),
-				 * 		error: function() {
-				 * 			newsletter.error();
-				 * 		},	
-				 * 		beforeSend: function() {
-				 * 			newsletter.start();
-				 * 		},	
-				 * 		success: function() {
-				 * 			newsletter.end();
-				 * 		}
-				 * });
 				 });
-				*/
+				var data = {
+				    email_address: $this.find(".email").val(),
+				    status: 'subscribed' // Ubah ke 'pending' jika Anda ingin persetujuan sebelum berlangganan
+				  };
+
+				 $.ajax({
+				 		url: $this.attr('title'),
+				 		type: $this.attr('method'),
+				    data: JSON.stringify(data),
+						headers: {
+	            'Authorization': 'Basic ' + btoa('anystring:' + $this.attr('id')),
+		        },
+		        dataType: 'jsonp',
+		        contentType: 'application/jsonp',
+				 		error: function() {
+				 			newsletter.error();
+				 		},	
+				 		beforeSend: function() {
+				 			console.log($this.attr('id'));
+				 			console.log($this.attr('title'));
+				 			console.log($this.find(".email").val())
+				 			newsletter.start();
+				 		},	
+				 		success: function() {
+				 			newsletter.end();
+				 		}
+				 });*/
 
 				newsletter.start();
 
