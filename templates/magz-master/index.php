@@ -10,26 +10,26 @@
 	<?php
 	$is_admin = _ADMIN != '' ? 'div' : 'header';
 	?>
-	<<?php echo $is_admin ?> class="primary">
-		<div class="firstbar">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-sm-12">
-						<?php echo $sys->block_show('logo'); ?>
-					</div>
-					<div class="col-md-6 col-sm-12" style="display: flex; flex-direction: column; flex-wrap: nowrap;">
-						<?php echo $sys->block_show('intro'); ?>
-					</div>
-					<div class="col-md-3 col-sm-12">
-						<?php echo $sys->block_show('header'); ?>
-					</div>
+<!-- 	<<?php echo $is_admin ?> class="primary">
+	<div class="firstbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-12">
+					<?php echo $sys->block_show('logo'); ?>
+				</div>
+				<div class="col-md-6 col-sm-12" style="display: flex; flex-direction: column; flex-wrap: nowrap;">
+					<?php echo $sys->block_show('intro'); ?>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<?php echo $sys->block_show('header'); ?>
 				</div>
 			</div>
 		</div>
-		<nav class="menu">
-			<?php echo $sys->block_show('top') ?>
-		</nav>
-	</<?php echo $is_admin ?>>
+	</div>
+	<nav class="menu">
+		<?php echo $sys->block_show('top') ?>
+	</nav>
+</<?php echo $is_admin ?>> -->
 	<section class="home">
 		<div class="container">
 			<div class="row">
@@ -79,7 +79,6 @@
 			</div>
 		</div>
 	</footer>
-
 	<script src="<?php echo _URL; ?>templates/admin/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 	<?php
 	// $sys->link_js($sys->template_url . 'js/application.js', false);
@@ -102,10 +101,6 @@
 	// echo $sys->block_show('debug');
 	$sys->link_js($sys->template_url . 'js/main.js', false);
 	?>
-	<script type="text/javascript">
-		
-	</script>
-
 </body>
 
 </html>

@@ -54,7 +54,7 @@ function _category_style($ids, $is_link = true)
 				<?php
 				if ($config['tag']) {
 					$r = _category_style($data['id'], $config['tag_link']);
-					echo '<div class="category">' . implode('', $r) . '</div>';
+					echo '<div class="category" id="exception">' . implode('', $r) . '</div>';
 				}
 				$link = content_link($data['id'], $data['title']);
 				if ($config['title']) {

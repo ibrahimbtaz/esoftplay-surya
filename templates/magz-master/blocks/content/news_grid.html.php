@@ -9,12 +9,12 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 		foreach ($pieces as $chunk) {
 		?>
 			<div class="col-md-6 col-sm-6 col-xs-12">
-				<div class="row">
+				<div class="row news_grid">
 					<?php
 					foreach ($chunk as $data) {
 						$edit_data = (content_posted_permission() && $user->id == $data['created_by']) ? 1 : 0;
 						$link = content_link($data['id'], $data['title']);
-					?>
+						?>
 						<article class="article col-md-12">
 							<div class="inner">
 								<?php
@@ -29,8 +29,8 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 										if (!empty($config['created']) || !empty($config['tag'])) {
 											$m = (empty($config['created'])) ? 0 : '';
 											$r = content_category($data['id'], $config['tag_link']);
+											echo (!empty($config['tag'])) ? '<div class="category col-md-auto" style="' . $m . ' ">' . implode('', $r) . '</div>' : '';
 											echo (!empty($config['created'])) ? '<div class="time">' . lang('created') . content_date($data['created']) . '</div>' : '';
-											echo (!empty($config['tag'])) ? '<div class="category col-md-auto text-right pull-right" style="' . $m . ' ">' . implode('', $r) . '</div>' : '';
 										?>
 											<div class="clearfix"></div>
 										<?php

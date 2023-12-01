@@ -32,19 +32,19 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 						<div class="featured-author-body">
 							<div class="featured-author-count">
 								<div class="item">
-									<a href="#">
+									<a href="<?php echo site_url('content/article') ?>">
 										<div class="name"><?php echo lang('Posts') ?></div>
 										<div class="value"><?php echo $data['hits'] ?></div>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#">
+									<a href="<?php echo site_url('content/article') ?>">
 										<div class="name"><?php echo lang('Stars') ?></div>
 										<div class="value"><?php echo magazine_rating_grade($data['rating']) ?></div>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#">
+									<a href="<?php echo site_url('content/article') ?>">
 										<div class="icon">
 											<div><?php echo lang('More') ?></div>
 											<i class="ion-chevron-right"></i>
@@ -69,7 +69,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 								</div>
 							</div>
 							<div class="featured-author-footer">
-								<a href="#"><?php echo lang('See All Authors') ?></a>
+								<a href="<?php echo site_url('content/article') ?>"><?php echo lang('See All Authors') ?></a>
 							</div>
 						</div>
 					<?php

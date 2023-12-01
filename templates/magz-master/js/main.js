@@ -1,4 +1,6 @@
 _Bbc(function ($) {
+	$(".category a:first-child").not('.category#exception a:first-child').css("padding", "0 5px 0 0");
+
 	if (!$('footer#latest_news .more').length) {
 		$('footer#latest_news').css('margin', '10px 0');
 		$('#latest_news .love').css('float', 'none');
@@ -43,6 +45,7 @@ _Bbc(function ($) {
 		}
 		
 	}
-		left_position();
+	left_position();
 	search_position();
+
 });

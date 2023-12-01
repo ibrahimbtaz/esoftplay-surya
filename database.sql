@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 30, 2023 at 01:31 PM
+-- Generation Time: Dec 01, 2023 at 01:07 PM
 -- Server version: 5.7.42-log
 -- PHP Version: 7.4.33
 
@@ -279,9 +279,9 @@ INSERT INTO `bbc_block` (`id`, `template_id`, `block_ref_id`, `position_id`, `sh
 (165, 8, 10, 5, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"usermenu\",\"cat_id\":\"3\",\"submenu\":\"bottom+right\"}', 2, 1),
 (166, 8, 6, 10, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"search_top\",\"caption\":\"Type+something+here\"}', 1, 1),
 (169, 8, 10, 10, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"popular_search\",\"cat_id\":\"7\",\"submenu\":\"bottom+right\"}', 2, 1),
-(172, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_popular\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 2, 1),
-(187, 8, 3, 1, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_hot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
-(190, 8, 16, 12, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"trending_tags\",\"tag_type\":\"1\",\"duration\":\"30\",\"tag_ids\":\"\",\"limit\":\"5\"}', 2, 1),
+(172, 8, 3, 2, 1, '', 0, 38, ',all,', ',-1,', '', '', '', '{\"template\":\"news_list_popular\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 2, 1),
+(187, 8, 3, 1, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_hot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 2, 1),
+(190, 8, 16, 1, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"trending_tags\",\"tag_type\":\"1\",\"duration\":\"30\",\"tag_ids\":\"\",\"limit\":\"5\"}', 1, 1),
 (180, 8, 10, 5, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"loginmenu\",\"cat_id\":\"4\",\"submenu\":\"bottom+right\"}', 1, 1),
 (182, 8, 3, 4, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_slider\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
 (201, 8, 9, 13, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"company_info\",\"image\":\"images%2Fuploads%2Flogo-light.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"about-us.html\",\"title\":\"Magz+is+a+HTML5+%26amp%3B+CSS3+magazine+template+based+on+Bootstrap+3.\",\"attribute\":\"\"}', 1, 1),
@@ -290,16 +290,18 @@ INSERT INTO `bbc_block` (`id`, `template_id`, `block_ref_id`, `position_id`, `sh
 (204, 8, 3, 15, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_list_foot\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
 (208, 8, 20, 16, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"sosmed\",\"info\":\"Follow+us+and+stay+in+touch+to+get+the+latest+news\",\"facebook\":\"https%3A%2F%2Fwww.facebook.com%2F\",\"twitter\":\"https%3A%2F%2Ftwitter.com%2F\",\"youtube\":\"https%3A%2F%2Fwww.youtube.com%2F\",\"googleplus\":\"https%3A%2F%2Fplus.google.com%2F\",\"instagram\":\"https%3A%2F%2Fwww.instagram.com%2F\",\"tumblr\":\"https%3A%2F%2Fwww.tumblr.com%2F\",\"dribbble\":\"https%3A%2F%2Fdribbble.com%2F\",\"linkedin\":\"https%3A%2F%2Fwww.linkedin.com%2F\",\"skype\":\"https%3A%2F%2Fwww.skype.com%2F\",\"rss\":\"https%3A%2F%2Fwww.pinterest.com%2F\"}', 1, 1),
 (209, 8, 10, 16, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"menu_bot\",\"cat_id\":\"2\",\"submenu\":\"bottom+right\"}', 2, 1),
-(215, 8, 7, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"sponsored_ads\",\"show\":\"1\",\"limit\":\"4\"}', 6, 1),
+(215, 8, 7, 2, 1, '', 0, 38, ',all,', ',-1,', '', '', '', '{\"template\":\"sponsored_ads\",\"show\":\"1\",\"limit\":\"4\"}', 8, 1),
 (177, 8, 3, 9, 1, '', 0, 39, ',all,', ',all,', '', '', '', '{\"template\":\"news_list\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
-(178, 8, 3, 12, 1, '', 0, 39, ',all,', ',all,', '', '', '', '{\"template\":\"news_grid\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"0\",\"title_link\":\"0\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"6\",\"thumbnail\":\"1\"}', 1, 1),
-(197, 8, 18, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"default\",\"caption\":\"Your+mail\",\"info\":\"By+subscribing+you+will+receive+new+articles+in+your+email.\",\"list_id\":\"395406e297\",\"api\":\"5c448858e3b60e58d1737e9329cb2315-us21\",\"url\":\"https%3A%2F%2Fgmail.us21.list-manage.com%2Fsubscribe%2Fpost-json%3Fu%3Dd22a9c3d9bbb34ea118f4f41f%26amp%3Bid%3D395406e297%26amp%3Bf_id%3D00c0f0e6f0%26c%3D\"}', 3, 1),
-(193, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_recomended\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 4, 1),
-(194, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"right_profile\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"1\",\"author\":\"1\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
-(191, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"news_video\",\"kind_id\":\"3\",\"type_id\":\"1\",\"cat_id\":\"4\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"0\"}', 5, 1),
-(186, 8, 9, 12, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"banner_iklan\",\"image\":\"images%2Fuploads%2Fads.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"\",\"attribute\":\"\"}', 3, 1),
+(178, 8, 3, 12, 1, '', 0, 39, ',all,', ',all,', '', '', '', '{\"template\":\"news_grid\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"-2\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"6\",\"thumbnail\":\"1\"}', 1, 1),
+(197, 8, 18, 2, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"default\",\"caption\":\"Your+mail\",\"info\":\"By+subscribing+you+will+receive+new+articles+in+your+email.\",\"list_id\":\"395406e297\",\"api\":\"5c448858e3b60e58d1737e9329cb2315-us21\",\"url\":\"https%3A%2F%2Fgmail.us21.list-manage.com%2Fsubscribe%2Fpost-json%3Fu%3Dd22a9c3d9bbb34ea118f4f41f%26amp%3Bid%3D395406e297%26amp%3Bf_id%3D00c0f0e6f0%26c%3D\"}', 5, 1),
+(218, 8, 3, 2, 1, '', 0, 38, ',all,', ',all,', ',-1,', '', '', '{\"template\":\"news_recent_post\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 4, 1),
+(219, 8, 9, 2, 1, '', 0, 38, ',all,', ',all,', ',-1,', '', '', '{\"template\":\"banner_iklan\",\"image\":\"images%2Fuploads%2Fad.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"\",\"attribute\":\"\"}', 3, 1),
+(193, 8, 3, 2, 1, '', 0, 38, ',all,', ',-1,', '', '', '', '{\"template\":\"news_recomended\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"1\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 6, 1),
+(194, 8, 3, 2, 1, '', 0, 38, ',all,', ',-1,', '', '', '', '{\"template\":\"right_profile\",\"kind_id\":\"-1\",\"type_id\":\"1\",\"cat_id\":\"1\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"intro\",\"created\":\"1\",\"modified\":\"1\",\"author\":\"1\",\"tag\":\"1\",\"tag_link\":\"1\",\"rating\":\"1\",\"read_more\":\"1\",\"tot_list\":\"5\",\"thumbnail\":\"1\"}', 1, 1),
+(191, 8, 3, 2, 1, '', 0, 38, ',all,', ',-1,', '', '', '', '{\"template\":\"news_video\",\"kind_id\":\"3\",\"type_id\":\"1\",\"cat_id\":\"4\",\"ids\":\"\",\"popular\":\"\",\"limit_title\":\"75\",\"limit_title_by\":\"char\",\"title\":\"1\",\"title_link\":\"1\",\"intro\":\"blank\",\"created\":\"0\",\"modified\":\"0\",\"author\":\"0\",\"tag\":\"0\",\"tag_link\":\"0\",\"rating\":\"0\",\"read_more\":\"0\",\"tot_list\":\"5\",\"thumbnail\":\"0\"}', 7, 1),
+(186, 8, 9, 12, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"banner_iklan\",\"image\":\"images%2Fuploads%2Fads.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"\",\"attribute\":\"\"}', 2, 1),
 (150, 8, 9, 7, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"logo\",\"image\":\"images%2Fuploads%2Flogo.png\",\"size\":\"\",\"is_link\":\"1\",\"link\":\"\",\"title\":\"Magz+Logo\",\"attribute\":\"\"}', 1, 1),
-(168, 8, 14, 8, 1, '', 0, 38, ',all,', ',all,', '', '', '', '{\"template\":\"headline\",\"cat_id\":\"1\",\"caption\":\"1\",\"indicator\":\"1\",\"control\":\"1\"}', 1, 1);
+(168, 8, 14, 8, 1, '', 0, 38, ',all,', ',-1,', '', '', '', '{\"template\":\"headline\",\"cat_id\":\"1\",\"caption\":\"1\",\"indicator\":\"1\",\"control\":\"1\"}', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -517,6 +519,7 @@ INSERT INTO `bbc_block_text` (`block_id`, `title`, `lang_id`) VALUES
 (201, 'Company Info', 1),
 (194, 'Profile', 1),
 (193, 'Recomended', 1),
+(218, 'Recent Post', 1),
 (191, 'Videos', 1),
 (202, 'Popular Tags', 1),
 (165, 'usermenu', 1),
@@ -532,7 +535,8 @@ INSERT INTO `bbc_block_text` (`block_id`, `title`, `lang_id`) VALUES
 (204, 'Latest News', 1),
 (209, 'menu_bot', 1),
 (208, 'Follow Us', 1),
-(215, 'Sponsored', 1);
+(215, 'Sponsored', 1),
+(219, 'Banner Iklan', 1);
 
 -- --------------------------------------------------------
 
@@ -708,10 +712,10 @@ INSERT INTO `bbc_content` (`id`, `par_id`, `type_id`, `kind_id`, `file`, `file_u
 (32, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'membumikan-transportasi-ke-ranah-lokal.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 117, '0', '2016-04-16 04:03:32', 0, 0, 0, '', 0),
 (33, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'nikmat-teh-di-pasar-terapung.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 7, ',all,', 318, '0', '2023-11-23 23:37:34', 1, 0, 0, '', 1),
 (34, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'tol-semakin-dikebut.jpeg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-23 22:44:11', 1, 15, ',all,', 399, '0,0,0,1,0', '2023-11-29 10:25:47', 1, 0, 0, '', 1),
-(35, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'dermaga-batubara-terbesar.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 329, '0', '2023-11-30 11:00:35', 0, 0, 0, '', 1),
-(36, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'belawan-terus-berbenah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 415, '0', '2023-11-29 10:24:11', 1, 0, 0, '', 1),
-(37, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'pasar-perintis-kian-seksi.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-23 22:43:20', 1, 23, ',all,', 223, '0,0,0,0,1', '2023-11-29 10:23:44', 1, 0, 0, '', 1),
-(38, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'garuda-buka-rute-surabaya-jeddah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-30 12:46:53', 1, 75, ',all,', 213, '0,0,1,1,0', '2023-11-30 09:52:12', 1, 0, 0, '', 1);
+(35, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'dermaga-batubara-terbesar.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 5, ',all,', 330, '0', '2023-12-01 09:52:29', 0, 0, 0, '', 1),
+(36, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'belawan-terus-berbenah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2016-05-04 03:11:39', 1, 10, ',all,', 416, '0', '2023-11-30 16:16:35', 1, 0, 0, '', 1),
+(37, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'pasar-perintis-kian-seksi.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-23 22:43:20', 1, 23, ',all,', 224, '0,0,0,0,1', '2023-11-30 14:29:35', 1, 0, 0, '', 1),
+(38, 0, 1, 0, '', '', '', 0, 0, 0, '0000-00-00 00:00:00', '', '', '', 'garuda-buka-rute-surabaya-jeddah.jpg', '', '', '2016-05-04 03:11:39', 1, 'Administrator', '2023-11-30 12:46:53', 1, 75, ',all,', 215, '0,0,1,1,0', '2023-11-30 17:15:25', 1, 0, 0, '', 1);
 
 -- --------------------------------------------------------
 
@@ -2194,7 +2198,7 @@ CREATE TABLE `bbc_user` (
 --
 
 INSERT INTO `bbc_user` (`id`, `group_ids`, `username`, `password`, `last_ip`, `last_ip_temp`, `last_login`, `last_login_temp`, `exp_checked`, `login_time`, `created`, `active`) VALUES
-(1, ',3,4,1,2,', 'admin', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '::1', '2023-11-30 11:16:49', '2023-11-30 09:51:28', '2023-11-30 15:31:01', 155, '0000-00-00 00:00:00', 1),
+(1, ',3,4,1,2,', 'admin', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '127.0.0.1', '2023-12-01 10:54:16', '2023-12-01 09:58:48', '2023-12-01 13:32:39', 158, '0000-00-00 00:00:00', 1),
 (2, ',2,1,3,4,', 'danang@fisip.net', 'Jb/QFMjSsB0TiVG4akdADbB1ciSvCTqo6qjKnAlT0yo/zMb++XFhRAz/A3jTKvaRpqNd1CTdY/N0E76yXcr3dg==', '::1', '127.0.0.1', '2023-10-17 10:40:30', '2016-05-03 23:35:44', '0000-00-00 00:00:00', 1, '0000-00-00 00:00:00', 1);
 
 -- --------------------------------------------------------
@@ -3431,7 +3435,7 @@ ALTER TABLE `bbc_alert`
 -- AUTO_INCREMENT for table `bbc_block`
 --
 ALTER TABLE `bbc_block`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=218;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=220;
 
 --
 -- AUTO_INCREMENT for table `bbc_block_position`
