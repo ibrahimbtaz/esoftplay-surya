@@ -6,6 +6,8 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 	<h1 class="aside-title"><?php echo $block->title ?> </h1>
 	<div class="aside-body">
 		<?php foreach ($cat['list'] as $key => $data) {
+			$edit_data = (content_posted_permission() && $user->id == $data['created_by']) ? 1 : 0;
+			$link = content_link($data['id'], $data['title']);
 			if ($key === 0 && isset($data['id'])) {
 				?> 
 				<article class="article-fw">
@@ -40,7 +42,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 									$m = (empty($config['created'])) ? 0 : '';
 									$r = content_category($data['id'], $config['tag_link']);
 									echo (!empty($config['created'])) ? '<div class="time">' . lang('created') . content_date($data['created']) . '</div>' : '';
-									echo (!empty($config['tag'])) ? '<div class="category col-md-auto text-right pull-right" style="' . $m . ' ">' . implode('', $r) . '</div>' : '';
+									echo (!empty($config['tag'])) ? '<div class="category col-md-auto" style="' . $m . ' ">' . implode('', $r) . '</div>' : '';
 									?>
 									<div class="clearfix"></div>
 								<?php
@@ -153,4 +155,3 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 <?php 
 }
 $block->title = '';
-?>

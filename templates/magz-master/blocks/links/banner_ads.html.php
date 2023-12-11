@@ -13,4 +13,3 @@
 </div>
 <?php
 $block->title = '';
-?>

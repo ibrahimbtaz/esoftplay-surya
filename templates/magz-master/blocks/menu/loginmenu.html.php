@@ -19,4 +19,3 @@ if (empty($user->id > 0)) {
 <?php
 }
 $block->title = '';
-?>

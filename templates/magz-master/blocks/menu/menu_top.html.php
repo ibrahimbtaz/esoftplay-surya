@@ -23,4 +23,3 @@ _func('magazine');
 </div>
 <?php
 $block->title = '';
-?>

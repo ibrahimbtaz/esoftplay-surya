@@ -12,7 +12,7 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 			</div>
 		</div>
 	</h1>
-	<div class="owl-carousel owl-theme carousel-1">
+	<div class="owl-carousel owl-theme carousel-1 best_of_the_week">
 		<?php
 		foreach ($cat['list'] as $data) {
 			$edit_data = (content_posted_permission() && $user->id == $data['created_by']) ? 1 : 0;
@@ -32,8 +32,8 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 							if (!empty($config['created']) || !empty($config['tag'])) {
 								$m = (empty($config['created'])) ? 0 : '';
 								$r = content_category($data['id'], $config['tag_link']);
+								echo (!empty($config['tag'])) ? '<div class="category col-md-auto" style="' . $m . ' ">' . implode('', $r) . '</div>' : '';
 								echo (!empty($config['created'])) ? '<div class="time" style="' . $m . '">' . lang('created') . content_date($data['created']) . '</div>' : '';
-								echo (!empty($config['tag'])) ? '<div class="category col-md-auto text-right pull-right" style="' . $m . ' ">' . implode('', $r) . '</div>' : '';
 							?>
 								<div class="clearfix"></div>
 							<?php

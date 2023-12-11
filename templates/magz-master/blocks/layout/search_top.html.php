@@ -47,4 +47,3 @@ if ($Bbc->mod['name'] == 'content' && $Bbc->mod['task'] == 'search') {
 </script>
 <?php
 $block->title = '';
-?>

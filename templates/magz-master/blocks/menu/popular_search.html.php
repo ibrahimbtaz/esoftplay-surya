@@ -18,4 +18,3 @@ $x = @$r[1] == 'left' ? 'left' : '';
 </div>
 <?php
 $block->title = '';
-?>

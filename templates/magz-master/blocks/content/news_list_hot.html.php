@@ -94,4 +94,3 @@ if (!empty($cat['list']) && is_array($cat['list'])) {
 <?php
 }
 $block->title = '';
-?>

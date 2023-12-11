@@ -20,4 +20,3 @@
 </aside>
 <?php
 $block->title = '';
-?>

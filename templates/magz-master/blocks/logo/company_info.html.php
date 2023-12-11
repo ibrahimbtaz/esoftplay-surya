@@ -29,4 +29,3 @@
 <div class="line"></div>
 <?php
 $block->title = '';
-?>

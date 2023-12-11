@@ -10,7 +10,7 @@
 	<?php
 	$is_admin = _ADMIN != '' ? 'div' : 'header';
 	?>
-<!-- 	<<?php echo $is_admin ?> class="primary">
+	<<?php echo $is_admin ?> class="primary">
 	<div class="firstbar">
 		<div class="container">
 			<div class="row">
@@ -29,7 +29,7 @@
 	<nav class="menu">
 		<?php echo $sys->block_show('top') ?>
 	</nav>
-</<?php echo $is_admin ?>> -->
+</<?php echo $is_admin ?>>
 	<section class="home">
 		<div class="container">
 			<div class="row">
@@ -58,16 +58,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<?php echo $sys->block_show('footer_col_satu') ?>
+					<?php echo $sys->block_show('footer_one') ?>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<?php echo $sys->block_show('footer_col_dua') ?>
+					<?php echo $sys->block_show('footer_two') ?>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<?php echo $sys->block_show('footer_col_tiga') ?>
+					<?php echo $sys->block_show('footer_three') ?>
 				</div>
 				<div class="col-md-3 col-xs-12 col-sm-6">
-					<?php echo $sys->block_show('footer_col_empat') ?>
+					<?php echo $sys->block_show('footer_four') ?>
 				</div>
 			</div>
 			<div class="row">

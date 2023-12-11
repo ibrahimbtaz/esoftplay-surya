@@ -13,4 +13,3 @@ $x = @$r[1] == 'left' ? 'left' : '';
 <div class="line"></div>
 <?php
 $block->title = '';
-?>
